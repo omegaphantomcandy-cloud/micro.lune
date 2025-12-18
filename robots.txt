@@ -1,0 +1,114 @@
+# File: /robots.txt
+# Purpose: Control access for search engines and AI crawlers
+# Last Updated: December 2025
+# Review Frequency: Quarterly
+
+# ============================================
+# SECTION 1: ALLOW AI CRAWLERS FOR VISIBILITY
+# ============================================
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# ============================================
+# SECTION 2: SELECTIVE BLOCKING OF CRAWLERS
+# ============================================
+
+# Block low-value or scraping-focused bots
+User-agent: Bytespider
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /private/
+Disallow: /admin/
+
+User-agent: SemrushBot
+Disallow: /private/
+
+# Block bad actors (scrapers, data miners)
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# ============================================
+# SECTION 3: GLOBAL RULES FOR ALL BOTS
+# ============================================
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /temp/
+Disallow: /backup/
+Disallow: /*.pdf$
+
+# Exclude directories with duplicate or thin content
+Disallow: /old-versions/
+Disallow: /archive/staging/
+Disallow: /drafts/
+
+# DO NOT block static assets (CSS, JavaScript, images)
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# Prevent crawling of auto-generated pages
+Disallow: /*?*utm_*
+Disallow: /*?*ref=*
+Disallow: /*?*sort=*
+Disallow: /*?*page=*&*page=*
+
+# ============================================
+# SECTION 4: CRAWL OPTIMIZATION
+# ============================================
+
+# Request delay for resource-intensive crawlers (in seconds)
+User-agent: GPTBot
+Crawl-delay: 2
+
+User-agent: PerplexityBot
+Crawl-delay: 1
+
+User-agent: *
+Crawl-delay: 0.5
+
+# ============================================
+# SECTION 5: SITEMAP REFERENCES
+# ============================================
+
+Sitemap: https://yourdomain.it/sitemap.xml

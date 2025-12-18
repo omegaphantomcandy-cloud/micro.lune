@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luna/r - Premium 3D Printing E-Commerce Platform</title>
+    <meta name="description"
+        content="Interactive case study of Luna/r: A cyberpunk-aesthetic 3D printing e-commerce platform with NFC integration, custom design services, and automated fulfillment.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="fdm-farm.css">
+    <link rel="stylesheet" href="navigation.css">
+</head>
+
+<body>
+    <!-- New Minimal Navigation is injected by navigation.js -->
+
+    <!-- Table of Contents Sidebar -->
+    <aside class="toc" id="toc">
+        <div class="toc-header">
+            <h3>Contents</h3>
+            <button class="toc-toggle" id="tocToggle">×</button>
+        </div>
+        <nav class="toc-nav">
+            <a href="#ecosystem" class="toc-link" data-section="ecosystem">0. Ecosystem</a>
+            <a href="#fr-problema" class="toc-link" data-section="fr-problema">1. Problema</a>
+            <a href="#fr-soluzione" class="toc-link" data-section="fr-soluzione">2. Soluzione</a>
+            <a href="#fr-risultati" class="toc-link" data-section="fr-risultati">3. Risultati</a>
+            <a href="#fr-business" class="toc-link" data-section="fr-business">4. Business Model</a>
+            <a href="#fr-tecnologia" class="toc-link" data-section="fr-tecnologia">5. Tecnologia</a>
+            <a href="#fr-roadmap" class="toc-link" data-section="fr-roadmap">6. Roadmap</a>
+            <a href="#fr-ruolo" class="toc-link" data-section="fr-ruolo">7. Ruolo</a>
+            <a href="#fr-esg" class="toc-link" data-section="fr-esg">8. ESG</a>
+            <a href="#fr-cta" class="toc-link" data-section="fr-cta">9. Contatti</a>
+        </nav>
+    </aside>
+
+    <!-- Mobile TOC Toggle -->
+    <button class="toc-mobile-toggle" id="tocMobileToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Main Content -->
+    <main class="content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Luna/r</h1>
+                <p class="hero-subtitle">Premium 3D Printing E-Commerce Platform</p>
+                <div class="hero-meta">
+                    <span class="meta-item">E-commerce</span>
+                    <span class="meta-item">3D Printing</span>
+                    <span class="meta-item">NFC Technology</span>
+                    <span class="meta-item">2023-2024</span>
+                </div>
+            </div>
+            <div class="hero-visual" id="heroVisual"></div>
+        </section>
+
+        <!-- Ecosystem Role -->
+        <section class="section ecosystem-role" id="ecosystem"
+            style="background: rgba(0, 255, 136, 0.05); border-bottom: 1px solid var(--color-accent-primary);">
+            <div class="section-header">
+                <span class="section-number" style="color: var(--color-accent-primary)">00</span>
+                <h2 class="section-title" style="color: var(--color-accent-primary)">Ecosystem Role</h2>
+            </div>
+            <div class="section-content">
+                <div class="phase-block"
+                    style="width: 100%; display: flex; align-items: center; gap: 2rem; margin-bottom: 0;">
+                    <div class="phase-icon"
+                        style="border-color: var(--color-accent-primary); width: 80px; height: 80px;">
+                        <svg class="vector-icon" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-primary)"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            style="width: 32px; height: 32px;">
+                            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                            <polyline points="2 17 12 22 22 17"></polyline>
+                            <polyline points="2 12 12 17 22 12"></polyline>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 style="margin-bottom: 0.5rem; font-family: var(--font-display);">Phase 2: MVP & Validation
+                        </h3>
+                        <p style="margin-bottom: 0;">
+                            Luna/r serves as the **Validation Engine** in the pipeline. It tests market demand for
+                            high-end, NFC-integrated physical goods using lean manufacturing principles.
+                            <a href="pipeline.html"
+                                style="color: var(--color-accent-primary); text-decoration: underline; margin-left: 0.5rem;">See
+                                Pipeline →</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Framework Structure: Luna/r -->
+        <section class="section" id="framework-overview">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">Luna/r – E-Commerce Circolare Intelligente</h2>
+            </div>
+
+            <!-- 1. Problema -->
+            <div class="framework-block" id="fr-problema">
+                <h3>1. Problema</h3>
+                <p>
+                    L'e-commerce di prodotti fisici soffre di una pesante inefficienza: enormi stock invenduti, lunghi
+                    tempi di produzione manuale e una disconnessione tra prodotto fisico e valore digitale.
+                    I modelli tradizionali "make-to-stock" generano costi di magazzino insostenibili e uno spreco di
+                    materiali del 20-30% per over-produzione.
+                </p>
+            </div>
+
+            <!-- 2. Soluzione -->
+            <div class="framework-block" id="fr-soluzione">
+                <h3>2. Soluzione</h3>
+                <p>
+                    Luna/r implementa un modello "make-on-demand" puro: ogni prodotto viene fabbricato solo dopo
+                    l'ordine, utilizzando una pipeline automatizzata che va dal check-out alla stampante 3D senza
+                    intervento umano.
+                    Integra chip NFC in ogni oggetto, trasformando manufatti passivi in portali digitali programmabili
+                    dal cliente finale. Velocità di un dropshipping, qualità dell'artigianato digitale.
+                </p>
+            </div>
+
+            <!-- 3. Risultati e Metriche -->
+            <div class="framework-block" id="fr-risultati">
+                <h3>3. Risultati Chiave</h3>
+                <ul class="feature-list">
+                    <li><strong>Efficienza:</strong> Tempo medio order-to-print &#60; 4 ore (vs giorni manuali).</li>
+                    <li><strong>Economia:</strong> 0% invenduto (modello zero-inventory). Margine lordo > 200% su parti
+                        fisiche.</li>
+                    <li><strong>Adattabilità:</strong> 500+ design parametrizzabili caricati a catalogo.</li>
+                    <li><strong>Utenti:</strong> 340+ ordini evasi con rating medio 4.8/5.</li>
+                </ul>
+            </div>
+
+            <!-- 4. Business Model -->
+            <div class="framework-block" id="fr-business">
+                <h3>4. Modello di Business</h3>
+                <p>
+                    Ibrido E-commerce / Marketplace di Asset Digitali:
+                </p>
+                <ul class="feature-list">
+                    <li>Vendita diretta di prodotti fisici con markup di manifattura.</li>
+                    <li>Vendita di file digitali (SaaS-like) con margine 100%.</li>
+                    <li>Opzioni di personalizzazione premium (Design-as-a-Service).</li>
+                </ul>
+            </div>
+
+            <!-- 5. Tecnologia -->
+            <div class="framework-block" id="fr-tecnologia">
+                <h3>5. Tecnologia e Vantaggio Competitivo</h3>
+                <ul class="feature-list">
+                    <li><strong>Infrastructure:</strong> Stack Vercel Edge per latenza globale &#60; 100ms.</li>
+                    <li><strong>Proprietary Pipeline:</strong> Motore di validazione STL e slicing automatico integrato
+                        nel backend.</li>
+                    <li><strong>IoT Layer:</strong> Sistema proprietario di crittografia NFC end-to-end (AES-256) che
+                        permette ai clienti di riprogrammare i chip in sicurezza.</li>
+                </ul>
+            </div>
+
+            <!-- 6. Stato e Roadmap -->
+            <div class="framework-block" id="fr-roadmap">
+                <h3>6. Stato Attuale e Roadmap</h3>
+                <p><strong>Stato:</strong> MVP validato, revenue-generating, 500+ utenti attivi mensili.</p>
+                <ul class="feature-list">
+                    <li><strong>Q1 2026:</strong> Espansione catalogo a 1000 design, lancio app mobile nativa.</li>
+                    <li><strong>Q2 2026:</strong> API per integrazione con farm esterne (Distributed Manufacturing).
+                    </li>
+                    <li><strong>Q3 2026:</strong> Licensing del sistema di gestione ordini a terzi.</li>
+                </ul>
+            </div>
+
+            <!-- 7. Ruolo Founder -->
+            <div class="framework-block" id="fr-ruolo">
+                <h3>7. Il Mio Ruolo</h3>
+                <ul class="feature-list">
+                    <li>Architettura Full-Stack (Next.js + Python backend).</li>
+                    <li>Sviluppo della logica di pricing dinamico basata sul volume di materiale.</li>
+                    <li>Design della linea prodotti "Cyberpunk" e ingegnerizzazione per la stampa 3D (DfAM).</li>
+                </ul>
+            </div>
+
+            <!-- 8. ESG Impact -->
+            <div class="framework-block" id="fr-esg">
+                <h3>8. Impatto Sostenibilità (ESG)</h3>
+                <ul class="feature-list">
+                    <li><strong>Zero Waste:</strong> Produzione solo su domanda elimina completamente gli sprechi da
+                        invenduto.</li>
+                    <li><strong>Materiali Locali:</strong> Uso esclusivo di PLA/PETG di origine europea per ridurre
+                        Scope 3 emissions.</li>
+                    <li><strong>Circolarità:</strong> Programma di ritiro e riciclo del fine vita facilitato dai dati
+                        NFC.</li>
+                </ul>
+            </div>
+
+            <!-- 9. CTA -->
+            <div class="framework-block cta-block" id="fr-cta"
+                style="text-align: center; margin-top: 3rem; background: rgba(0,255,136,0.1); padding: 2rem; border-radius: 8px;">
+                <h3 style="color: var(--color-accent-primary);">Interested in Luna/r?</h3>
+                <p style="margin-bottom: 1.5rem;">Cercando partner per scalare la produzione distribuita.</p>
+                <a href="mailto:contact@giacomobertapelle.com" class="cta-button">Richiedi Investor Deck</a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Progress Indicator -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Floating CTA Button -->
+    <a href="mailto:contact@giacomobertapelle.com?subject=Luna/r%20Inquiry%20-%20Pricing%20%26%20Information"
+        class="floating-cta" id="floatingCta">
+        <span class="cta-icon">💬</span>
+        <span class="cta-text">Get Pricing & Info</span>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="navigation.js"></script>
+    <script src="lunar.js"></script>
+</body>
+
+</html>

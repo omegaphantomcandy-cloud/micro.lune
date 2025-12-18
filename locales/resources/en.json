@@ -1,0 +1,10 @@
+{
+    "nav": {
+        "base": "Base",
+        "microlune": "Microlune",
+        "framework": "Framework",
+        "resources": "Resources",
+        "about": "About",
+        "contact": "Contact"
+    }
+}

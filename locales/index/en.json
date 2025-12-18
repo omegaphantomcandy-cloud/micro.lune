@@ -1,0 +1,80 @@
+{
+    "common": {
+        "book_call": "Book Diagnostic Call",
+        "learn_more": "Learn More"
+    },
+    "nav": {
+        "base": "Base",
+        "microlune": "Microlune",
+        "framework": "Framework",
+        "resources": "Resources",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title1": "TECH AUTOMATION",
+        "title2": "& MANUFACTURING",
+        "subtitle": "Stop wasting time on manual ops. I build tailored automation stacks for 3D printing and e-commerce so you can focus on scaling, not firefighting.",
+        "location": "Bologna, Italy",
+        "cta": "Let's Fix Your Operations",
+        "scroll": "Scroll"
+    },
+    "icp": {
+        "title": "Who This Is For",
+        "farm_title": "Print Farm Operator",
+        "farm_desc": "Downtime is eating your margins. Let's automate the queue.",
+        "ecom_title": "E-Commerce Founder",
+        "ecom_desc": "Fulfillment shouldn't take all day. Automate the boring path.",
+        "maker_title": "Small Manufacturer",
+        "maker_desc": "Scale output, not headcount. Systems over hiring."
+    },
+    "engagement": {
+        "title": "The Protocol",
+        "s1_title": "01. Diagnostic",
+        "s1_desc": "We look at your systems. I tell you what's broken. No fluff. (Free, 30 min)",
+        "s2_title": "02. The Blueprint",
+        "s2_desc": "I design the fix. You get a technical roadmap that actually works. (2-3 weeks)",
+        "s3_title": "03. Execution",
+        "s3_desc": "I build it. We test it. You run it. Efficiency as standard. (Ongoing)"
+    },
+    "solutions": {
+        "title": "Services",
+        "audit_title": "Farm Automation Audit",
+        "audit_desc": "Stop guessing why prints fail. Data-driven analysis for your farm.",
+        "blueprint_title": "E-com Autopilot",
+        "blueprint_desc": "Shopify APIs + Logic = Zero manual data entry.",
+        "sprint_title": "90-Day Sprint",
+        "sprint_desc": "Full-stack overhaul. Hardware, software, and the training to run it."
+    },
+    "projects": {
+        "title": "Proof of Work",
+        "luna": {
+            "title": "Luna/r",
+            "category": "E-commerce · 3D Printing · NFC",
+            "description": "Premium 3D printing e-shop. We didn't just build a store; we built a proprietary CAD pipeline to automate fulfillment. 340+ orders, zero manual file prep."
+        },
+        "farm": {
+            "title": "Farm Automation Systems",
+            "category": "Manufacturing · Materials",
+            "description": "Optimized material flow and printer orchestration. Result: 40% faster production. We cut the manual labor so the machines could do the work."
+        },
+        "fablab": {
+            "title": "FabLab Projects",
+            "category": "Digital Fabrication",
+            "description": "Industry 4.0 isn't a buzzword here; it's the standard. Robotics, IoT, and real-world testing."
+        }
+    },
+    "about": {
+        "title": "The Philosophy",
+        "lead": "I bridge the gap between visionary thinking and operational execution. Optimization is an obsession.",
+        "p1": "I don't believe in analysis paralysis. We build, we test, we iterate. My background isn't just coding—it's mechatronics, trading, and running actual businesses.",
+        "p2": "Automation isn't laziness; it's respect for finite time. I help you reclaim yours.",
+        "stat1": "50+ Projects",
+        "stat2": "40% Speed Boost",
+        "stat3": "€100k+ Impact"
+    },
+    "contact": {
+        "title": "Start Building Leverage",
+        "text": "Ready to stop manually managing your business? Let's talk systems."
+    }
+}

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pipeline - Giacomo Bertapelle</title>
+    <meta name="description"
+        content="Bootstrap. Crowdfund. Scale. A scientifically-grounded framework for rapid innovation.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pipeline.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-logo">Giacomo Bertapelle</div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Base</a>
+            <a href="index.html#projects" class="nav-link">Microlune</a>
+            <a href="pipeline.html" class="nav-link active">Framework</a>
+            <a href="resources.html" class="nav-link">Resources</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="index.html#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pipeline-hero">
+        <div class="pipeline-hero-content">
+            <h1 class="pipeline-title">
+                <span class="word">THE</span>
+                <span class="word highlight">PIPELINE</span>
+            </h1>
+            <p class="pipeline-subtitle">From Prototype to Market.</p>
+            <p class="pipeline-description">
+                The only framework that combines Crowdfunding + European Grants + Community Validation.
+                Designed for makers who want to raise capital without VC dilution.
+            </p>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Who It's For -->
+    <section class="section-audience" style="padding: 4rem 2rem; max-width: 1000px; margin: 0 auto;">
+        <h2 class="section-title" style="text-align: center;">Who This Is For</h2>
+        <div class="audience-grid"
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 2rem;">
+            <div class="audience-card"
+                style="border: 1px solid var(--color-border); padding: 2rem; border-radius: 4px; background: var(--color-surface);">
+                <h3 style="color: var(--color-accent-primary); font-family: var(--font-display); margin-bottom: 1rem;">
+                    Makers & Small Business</h3>
+                <ul style="color: var(--color-text-secondary); line-height: 1.6;">
+                    <li>You have a physical or hybrid product.</li>
+                    <li>You’re bootstrapping with limited budget.</li>
+                    <li>Crowdfunding feels risky and confusing.</li>
+                </ul>
+            </div>
+            <div class="audience-card"
+                style="border: 1px solid var(--color-border); padding: 2rem; border-radius: 4px; background: var(--color-surface);">
+                <h3
+                    style="color: var(--color-accent-secondary); font-family: var(--font-display); margin-bottom: 1rem;">
+                    Tech Founders</h3>
+                <ul style="color: var(--color-text-secondary); line-height: 1.6;">
+                    <li>You need €50k–€500k to validate and scale.</li>
+                    <li>You want to avoid early equity dilution.</li>
+                    <li>You’re considering crowdfunding + grants.</li>
+                </ul>
+            </div>
+            <div class="audience-card"
+                style="border: 1px solid var(--color-border); padding: 2rem; border-radius: 4px; background: var(--color-surface);">
+                <h3 style="color: var(--color-accent-tertiary); font-family: var(--font-display); margin-bottom: 1rem;">
+                    Innovation Teams</h3>
+                <ul style="color: var(--color-text-secondary); line-height: 1.6;">
+                    <li>You want hands-on workshops for your team.</li>
+                    <li>You need a repeatable method for innovation.</li>
+                    <li>You care about real-world examples.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Flow -->
+    <section class="pipeline-flow-section">
+        <div class="pipeline-line"></div>
+
+        <!-- Phase 1: Community Validation -->
+        <div class="phase-block" data-category="trust">
+            <div class="phase-marker">01</div>
+            <div class="phase-icon">
+                <svg itemprop="image" class="vector-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+            </div>
+            <div class="phase-content">
+                <h2 class="phase-title">Community Validation</h2>
+                <div class="phase-tags">
+                    <span class="tag trust">Trust</span>
+                    <span class="tag">Demand</span>
+                </div>
+                <p>
+                    <strong>Goal:</strong> Engage 500+ potential customers in 6–8 weeks.<br>
+                    <strong>How?</strong> Discord communities, pilot programs, and real conversations.
+                    Build demand before supply.
+                </p>
+            </div>
+        </div>
+
+        <!-- Phase 2: MVP Development -->
+        <div class="phase-block right" data-category="tech">
+            <div class="phase-marker">02</div>
+            <div class="phase-icon">
+                <svg itemprop="image" class="vector-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+            </div>
+            <div class="phase-content">
+                <h2 class="phase-title">MVP Development</h2>
+                <div class="phase-tags">
+                    <span class="tag tech">Tech</span>
+                    <span class="tag">Lean</span>
+                </div>
+                <p>
+                    <strong>Build. Measure. Learn.</strong><br>
+                    Prioritize features using Jobs-to-be-Done.
+                    Rapid prototyping with 3D printing and low-code tools.
+                </p>
+            </div>
+        </div>
+
+        <!-- Phase 3: Crowdfunding Prep -->
+        <div class="phase-block" data-category="exclusiveness">
+            <div class="phase-marker">03</div>
+            <div class="phase-icon">
+                <svg itemprop="image" class="vector-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+            </div>
+            <div class="phase-content">
+                <h2 class="phase-title">Crowdfunding Prep</h2>
+                <div class="phase-tags">
+                    <span class="tag exclusiveness">Exclusiveness</span>
+                    <span class="tag">Validation</span>
+                </div>
+                <p>
+                    <strong>Pre-Campaign Audience Rule.</strong><br>
+                    Don't launch to crickets. Secure 30% conversion potential via email lists and communities before Day
+                    1.
+                </p>
+            </div>
+        </div>
+
+        <!-- Phase 4: Campaign & Grants -->
+        <div class="phase-block right" data-category="trust">
+            <div class="phase-marker">04</div>
+            <div class="phase-icon">
+                <svg itemprop="image" class="vector-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                    </path>
+                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                </svg>
+            </div>
+            <div class="phase-content">
+                <h2 class="phase-title">Campaign & Grants</h2>
+                <div class="phase-tags">
+                    <span class="tag trust">Trust</span>
+                    <span class="tag">Grants</span>
+                </div>
+                <p>
+                    <strong>Hybrid Capital Strategy.</strong><br>
+                    Crowdfunding for early cash flow. European grants (SME instruments, regional funds) for scaling.
+                </p>
+            </div>
+        </div>
+
+        <!-- Phase 5: Fulfillment & Scaling -->
+        <div class="phase-block" data-category="tech">
+            <div class="phase-marker">05</div>
+            <div class="phase-icon">
+                <svg itemprop="image" class="vector-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                    <polyline points="17 6 23 6 23 12"></polyline>
+                </svg>
+            </div>
+            <div class="phase-content">
+                <h2 class="phase-title">Fulfillment & Scaling</h2>
+                <div class="phase-tags">
+                    <span class="tag tech">Tech</span>
+                    <span class="tag">SaaS</span>
+                </div>
+                <p>
+                    <strong>Deliver Promises.</strong><br>
+                    Inventory systems, logistics partners, and automation to maintain margins and speed.
+                </p>
+            </div>
+        </div>
+
+        <!-- Phase 6: Recurring Revenue -->
+        <div class="phase-block right" data-category="exclusiveness">
+            <div class="phase-marker">06</div>
+            <div class="phase-icon">
+                <svg itemprop="image" class="vector-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path
+                        d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                    </path>
+                </svg>
+            </div>
+            <div class="phase-content">
+                <h2 class="phase-title">Recurring Revenue</h2>
+                <div class="phase-tags">
+                    <span class="tag exclusiveness">Exclusiveness</span>
+                    <span class="tag">Freedom</span>
+                </div>
+                <p>
+                    <strong>Long-term Business.</strong><br>
+                    Subscriptions, memberships, and ecosystems. Turn one-off backers into lifetime customers.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Modular Services -->
+    <section class="section-services"
+        style="padding: 6rem 2rem; background: var(--color-surface); border-top: 1px solid var(--color-border);">
+        <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
+            <h2 class="section-title">Engage With The Pipeline</h2>
+            <p class="section-subtitle"
+                style="color: var(--color-text-secondary); margin-bottom: 4rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Choose the level of support that fits your stage and budget.
+            </p>
+
+            <div class="services-grid"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+
+                <!-- Service 1 -->
+                <div class="service-card"
+                    style="border: 1px solid var(--color-border); padding: 2rem; text-align: left; transition: all 0.3s ease;">
+                    <h3
+                        style="font-family: var(--font-display); color: var(--color-accent-primary); margin-bottom: 1rem;">
+                        Group Workshops</h3>
+                    <p
+                        style="color: var(--color-text-primary); font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem;">
+                        €500–€1,500 <span style="font-size: 0.8rem; font-weight: 400; color: var(--color-text-muted);">/
+                            team</span></p>
+                    <ul style="color: var(--color-text-secondary); margin-bottom: 2rem; padding-left: 1.2rem;">
+                        <li>3-hour or 1-day intensive</li>
+                        <li>"From Idea to Crowdfunding"</li>
+                        <li>Templates & Roadmaps</li>
+                    </ul>
+                    <a href="index.html#contact" class="cta-link"
+                        style="color: var(--color-text-primary); text-decoration: underline; font-family: var(--font-display);">Request
+                        Info →</a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card"
+                    style="border: 1px solid var(--color-accent-primary); background: rgba(0, 255, 136, 0.05); padding: 2rem; text-align: left; transition: all 0.3s ease; position: relative; overflow: hidden;">
+                    <div
+                        style="position: absolute; top: 0; right: 0; background: var(--color-accent-primary); color: #000; font-size: 0.7rem; padding: 0.2rem 0.5rem; font-weight: 700;">
+                        POPULAR</div>
+                    <h3
+                        style="font-family: var(--font-display); color: var(--color-text-primary); margin-bottom: 1rem;">
+                        1:1 Consulting</h3>
+                    <p
+                        style="color: var(--color-text-primary); font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem;">
+                        €150–€300 <span style="font-size: 0.8rem; font-weight: 400; color: var(--color-text-muted);">/
+                            hour</span></p>
+                    <ul style="color: var(--color-text-secondary); margin-bottom: 2rem; padding-left: 1.2rem;">
+                        <li>Strategy Design</li>
+                        <li>Campaign Review</li>
+                        <li>Grant Application Review</li>
+                    </ul>
+                    <a href="index.html#contact" class="cta-link"
+                        style="color: var(--color-accent-primary); text-decoration: underline; font-family: var(--font-display);">Book
+                        Clarity Call →</a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card"
+                    style="border: 1px solid var(--color-border); padding: 2rem; text-align: left; transition: all 0.3s ease;">
+                    <h3
+                        style="font-family: var(--font-display); color: var(--color-accent-tertiary); margin-bottom: 1rem;">
+                        Cohort Program</h3>
+                    <p
+                        style="color: var(--color-text-primary); font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem;">
+                        €3,000 <span style="font-size: 0.8rem; font-weight: 400; color: var(--color-text-muted);">/
+                            founder</span></p>
+                    <ul style="color: var(--color-text-secondary); margin-bottom: 2rem; padding-left: 1.2rem;">
+                        <li>12-Week Structured Program</li>
+                        <li>Small Group (5-8 founders)</li>
+                        <li>Community + Guidance</li>
+                    </ul>
+                    <a href="index.html#contact" class="cta-link"
+                        style="color: var(--color-text-primary); text-decoration: underline; font-family: var(--font-display);">Join
+                        Waitlist →</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="pipeline-cta">
+        <h2>Deploy the Model</h2>
+        <p>Ready to build a disruptive ecosystem?</p>
+        <a href="index.html#contact" class="cta-button">Start Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Giacomo Bertapelle</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="pipeline.js"></script>
+</body>
+
+</html>
