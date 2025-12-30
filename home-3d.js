@@ -222,8 +222,8 @@ function createHomeVisual(projectType, sceneBuilder) {
 
         // 360 Rotation
         if (activeObject) {
-            activeObject.rotation.y += 0.01;
-            activeObject.rotation.x += 0.005;
+            activeObject.rotation.y += 0.005;
+            activeObject.rotation.x += 0.0025;
         }
 
         renderer.render(scene, camera);

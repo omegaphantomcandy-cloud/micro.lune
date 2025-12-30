@@ -106,9 +106,3 @@ Crawl-delay: 1
 
 User-agent: *
 Crawl-delay: 0.5
-
-# ============================================
-# SECTION 5: SITEMAP REFERENCES
-# ============================================
-
-Sitemap: https://yourdomain.it/sitemap.xml

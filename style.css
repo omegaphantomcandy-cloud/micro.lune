@@ -3,6 +3,15 @@
    Dark Minimalism · Strategic Negative Space
    =========================== */
 
+/* Global Container */
+.section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
+    position: relative;
+    z-index: 2;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -78,7 +87,7 @@ body {
 
 .nav:hover,
 .nav.scrolled {
-    background: rgba(5, 5, 5, 0.9);
+    background: rgba(5, 5, 5, 0.6);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     padding: 1rem 5%;
@@ -543,5 +552,35 @@ body {
 
     .scroll-hint {
         bottom: 6rem;
+    }
+
+    /* Improved Mobile Typography & Spacing */
+    .section-title {
+        text-align: center;
+        border-left: none;
+        padding-left: 0;
+        margin-bottom: 2rem;
+    }
+
+    .hero-content,
+    .about-content,
+    .project-info {
+        text-align: center;
+    }
+
+    .project-description {
+        text-align: center;
+        /* Or justify if preferred, but center is safer for small screens */
+        padding: 0 1rem;
+    }
+
+    .section-container {
+        padding: 0 1.5rem;
+        /* Ensure side margins */
+    }
+
+    .nav-links {
+        background: rgba(5, 5, 5, 0.95);
+        /* Ensure readability on mobile menu */
     }
 }

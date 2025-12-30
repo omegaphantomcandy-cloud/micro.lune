@@ -15,6 +15,36 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="loading.css">
     <link rel="stylesheet" href="admin.css">
+    
+    <!-- Local SEO Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Giacomo Bertapelle - Tech Automation Consultant",
+      "image": "https://giacomobertapelle.com/assets/hero-image.jpg",
+      "description": "Consulente di automazione tech e manifattura 3D a Bologna. Ottimizzazione print farm, e-commerce e processi industria 4.0 per PMI.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bologna",
+        "addressRegion": "Emilia-Romagna",
+        "addressCountry": "IT"
+      },
+      "url": "https://giacomobertapelle.com",
+      "priceRange": "€€-€€€",
+      "knowsLanguage": ["it", "en"],
+      "areaServed": {
+        "@type": "GeoShape",
+        "addressCountry": "IT",
+        "additionalProperty": "Serves Bologna, Emilia-Romagna, and Remote"
+      },
+      "serviceArea": {
+        "@type": "City",
+        "name": "Bologna",
+        "areaServed": "Emilia-Romagna"
+      }
+    }
+    </script>
 </head>
 
 <body>
@@ -47,7 +77,7 @@
     <section class="hero">
         <div class="hero-content">
             <h1 class="hero-title">
-                MICRO LUNE
+                MICRO LUNE,<br>GRANDI ORBITE.
             </h1>
             <p class="hero-subtitle" id="hero-subtitle">
                 PROGETTI CHE CHIUDONO I CICLI, NON CHE LI BRUCIANO.
@@ -56,6 +86,12 @@
                 style="font-size: 1rem; color: var(--color-text-muted); max-width: 600px; margin-top: 0;">
                 Project manager tra fabbricazione digitale, e‑commerce e sperimentazione neuro‑tech: progetto sistemi
                 che riducono sprechi, riusano risorse e connettono fisico e digitale in un’unica ecologia operativa.
+            </p>
+            
+            <p class="hero-subtitle" style="font-size: 0.9rem; color: var(--color-text-secondary); max-width: 600px; margin: 1rem auto;">
+                Ogni mio progetto è una “micro luna”: un ecosistema compatto, autosufficiente quanto basta, che ruota attorno agli stessi principi di fondo.
+                Economia circolare, automazione responsabile, design modulare. Che sia una print farm, un e‑commerce o un laboratorio sperimentale, l’obiettivo è sempre lo stesso:
+                <strong>fare di più con meno, senza consumare persone e materiali.</strong>
             </p>
 
             <a href="#projects" class="hero-cta-btn">
@@ -86,8 +122,8 @@
                         <p class="project-category">Stampa 3D · E‑Commerce · Design Modulare</p>
                         <p class="project-description">
                             Luna/r è la mia micro luna dedicata a prodotti fisici intelligenti.
-                            Un e‑commerce di stampa 3D dove file, materiali e logistica sono pensati per durare.
-                            Pipeline CAD proprietaria, fulfillment automatizzato e zero preparazione manuale.
+                            Un e‑commerce di stampa 3D dove file, materiali e logistica sono pensati per durare: design modulare, componenti stampabili on demand, NFC per estendere la vita del prodotto nel digitale.
+                            Pipeline CAD proprietaria, fulfillment automatizzato e zero preparazione manuale dei file: meno scarti, meno errori, più valore per ogni grammo di materiale.
                         </p>
                         <div class="project-tags">
                             <span>Shopify</span>
@@ -110,8 +146,8 @@
                         <p class="project-description">
                             Qui lavoro sul cuore produttivo: le farm di stampa e i piccoli impianti.
                             Orchestrazione delle macchine, gestione dei materiali e workflow pensati per tenere accese
-                            le stampanti, non le persone.
-                            Produzione che consuma meno tempo umano e più intelligenza di processo.
+                            le stampanti, non le persone fino a tardi.
+                            L’obiettivo non è solo il +40% di velocità di produzione: è una produzione che consuma meno tempo umano, meno sprechi in trial‑and‑error e più intelligenza di processo ad ogni ordine.
                         </p>
                         <div class="project-tags">
                             <span>Farm Automation</span>
@@ -134,8 +170,8 @@
                         <p class="project-description">
                             Il FabLab è la micro luna dove si sperimenta il futuro a basso impatto.
                             Robotica, IoT e fabbricazione digitale usati per costruire prototipi che possono diventare
-                            sistemi stabili.
-                            Test sul campo che generano pratiche replicabili nelle aziende.
+                            sistemi stabili, non solo demo da fiera.
+                            Ogni test sul campo genera linee guida, template e pratiche replicabili nelle aziende che vogliono fare Industria 4.0 senza buttare soldi in progetti vetrina.
                         </p>
                         <div class="project-tags">
                             <span>Arduino</span>
@@ -158,8 +194,8 @@
                         <p class="project-description">
                             Questa è la micro luna più sperimentale: sogni, dati cerebrali, interfacce multimodali.
                             Un progetto di ricerca che esplora come visualizzare le frequenze cerebrali durante il
-                            sonno.
-                            I dati non sono estratti ma restituiti come strumenti di consapevolezza.
+                            sonno, trasformandole in esperienze visive e sonore, con grande attenzione a etica, privacy e proprietà dei dati neurali.
+                            Anche qui la logica è circolare: i dati non sono estratti e venduti, ma restituiti alle persone come strumenti di introspezione, creatività e consapevolezza.
                         </p>
                         <div class="project-tags">
                             <span>Neurotech</span>
@@ -181,6 +217,8 @@
                 Invece di un unico “mega progetto”, lavoro su costellazioni di micro sistemi che si parlano tra loro.
                 Ogni micro luna è un laboratorio: testa un pezzo di futuro, misura impatto reale, poi trasferisce ciò
                 che funziona negli altri progetti.
+                <br><br>
+                Questo approccio riduce il rischio, accelera l’apprendimento e crea soluzioni riusabili: workflow, infrastrutture digitali e pratiche di design che si possono clonare e adattare, come moduli in una catena circolare.
             </p>
             <div class="icp-grid"
                 style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
@@ -231,7 +269,7 @@
                 style="text-align:center; max-width:700px; margin:0 auto 4rem auto; color:var(--color-text-secondary); line-height: 1.6;">
                 Il mio lavoro non è lanciare progetti e sparire: è disegnare orbite. Ogni iniziativa deve potersi
                 sostenere nel tempo, economicamente e operativamente, senza dipendere da eroismi quotidiani.
-                Pianifico come un project manager, penso come un system designer e misuro come un trader.
+                Pianifico come un project manager, penso come un system designer e misuro come un trader: <strong>impatto concreto, rischio controllato, margini visibili.</strong>
             </p>
             <div class="steps" style="display: flex; flex-direction: column; gap: 2rem;">
                 <div class="step" style="border-left: 2px solid var(--color-accent-primary); padding-left: 2rem;">
