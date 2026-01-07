@@ -44,9 +44,6 @@ function initNavigation() {
                 <a href="index.html" class="nav-link-main" data-text="Base" data-i18n="nav.base">Base</a>
             </li>
             <li class="nav-item">
-                <a href="index.html#projects" class="nav-link-main" data-text="Microlune" data-i18n="nav.microlune">Microlune</a>
-            </li>
-            <li class="nav-item">
                 <a href="pipeline.html" class="nav-link-main" data-text="Framework" data-i18n="nav.framework">Framework</a>
             </li>
             <li class="nav-item">
