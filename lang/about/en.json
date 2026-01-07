@@ -1,0 +1,44 @@
+{
+    "hero": {
+        "title": "DESIGNING <br><span>SYSTEMS</span> <br>NOT JUST <br>CODE."
+    },
+    "bio": {
+        "lead": "Based in Bologna, Italy, I operate at the intersection of <strong>Industry 4.0</strong>, <strong>Mechatronics</strong>, and <strong>Digital Ecosystems</strong>.",
+        "p1": "My professional journey is defined by a single obsession: <strong>Optimization</strong>. Whether it's a 3D manufacturing farm or a global e-commerce operation, I look for the friction points where human energy is wasted on repetitive tasks.",
+        "p2": "I leverage a rare vertical integration of skills. I can design a custom CAD optimization pipeline (DfAM) in the morning and architect a full-stack automation handler for Shopify APIs in the afternoon. This allows me to see the \"Big Orbit\" while managing the \"Micro Moons\" of daily operations.",
+        "p3": "Currently, I focus on helping specialized manufacturers and high-growth e-commerce founders scale without adding unnecessary headcount. I build the systems that make their growth sustainable."
+    },
+    "stats": {
+        "s1": {
+            "val": "50+",
+            "label": "Projects Delivered"
+        },
+        "s2": {
+            "val": "40%",
+            "label": "Avg. Speed Increase"
+        },
+        "s3": {
+            "val": "€100k+",
+            "label": "Documented Impact"
+        }
+    },
+    "expertise": {
+        "title": "CORE COMPETENCIES",
+        "c1": {
+            "title": "Digital Ops",
+            "desc": "API Orchestration, Custom CRM/ERP integrations, Warehouse Automation, and Low-Code/High-Control systems."
+        },
+        "c2": {
+            "title": "Mechatronics",
+            "desc": "Additive Manufacturing (FDM/SLA), IoT sensor networks, Robotics orchestration, and Material science applications."
+        },
+        "c3": {
+            "title": "Meta-Skills",
+            "desc": "Systems Thinking, Lean Manufacturing, Rapid Prototyping, and Technical Project Management."
+        }
+    },
+    "cta": {
+        "title": "READY TO SYSTEMIZE?",
+        "link": "LET'S TALK SYSTEMS →"
+    }
+}

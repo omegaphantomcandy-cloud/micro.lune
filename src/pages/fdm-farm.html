@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FDM Manufacturing Farm - Technical Overview</title>
+    <meta name="description"
+        content="Interactive technical documentation for automated FDM 3D printing farm systems with advanced orchestration and material optimization.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+    <link rel="stylesheet" href="../css/project.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="index.html" class="nav-logo-link">
+            <svg class="eye-logo" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="currentColor"
+                    stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2" fill="none" />
+            </svg>
+        </a>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link" data-i18n="nav.base">Base</a>
+            <a href="index.html#projects" class="nav-link" data-i18n="nav.microlune">Microlune</a>
+            <a href="pipeline.html" class="nav-link" data-i18n="nav.framework">Framework</a>
+            <a href="resources.html" class="nav-link" data-i18n="nav.resources">Resources</a>
+            <a href="about.html" class="nav-link" data-i18n="nav.about">About</a>
+            <a href="index.html#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Table of Contents Sidebar -->
+    <aside class="toc" id="toc">
+        <div class="toc-header">
+            <h3 data-i18n="toc.title">Contents</h3>
+            <button class="toc-toggle" id="tocToggle">×</button>
+        </div>
+        <nav class="toc-nav">
+            <a href="#ecosystem" class="toc-link" data-section="ecosystem" data-i18n="toc.ecosystem">0. Ecosystem</a>
+            <a href="#fr-problema" class="toc-link" data-section="fr-problema" data-i18n="toc.problem">1. Problema</a>
+            <a href="#fr-soluzione" class="toc-link" data-section="fr-soluzione" data-i18n="toc.solution">2. Soluzione</a>
+            <a href="#fr-risultati" class="toc-link" data-section="fr-risultati" data-i18n="toc.results">3. Risultati</a>
+            <a href="#fr-business" class="toc-link" data-section="fr-business" data-i18n="toc.business">4. Business Model</a>
+            <a href="#fr-tecnologia" class="toc-link" data-section="fr-tecnologia" data-i18n="toc.tech">5. Tecnologia</a>
+            <a href="#fr-roadmap" class="toc-link" data-section="fr-roadmap" data-i18n="toc.roadmap">6. Roadmap</a>
+            <a href="#fr-ruolo" class="toc-link" data-section="fr-ruolo" data-i18n="toc.role">7. Ruolo</a>
+            <a href="#fr-esg" class="toc-link" data-section="fr-esg" data-i18n="toc.esg">8. ESG</a>
+        </nav>
+    </aside>
+
+    <!-- Mobile TOC Toggle -->
+    <button class="toc-mobile-toggle" id="tocMobileToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Main Content -->
+    <main class="content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title" data-i18n="hero.title">FDM Manufacturing Farm</h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">Automated Production Systems for Fused Deposition Modeling</p>
+                <div class="hero-meta">
+                    <span class="meta-item" data-i18n="hero.m1">Technical White Paper</span>
+                    <span class="meta-item" data-i18n="hero.m2">December 2025</span>
+                    <span class="meta-item" data-i18n="hero.m3">Giacomo Bertapelle</span>
+                </div>
+            </div>
+            <div class="hero-visual" id="heroVisual"></div>
+        </section>
+
+        <!-- Ecosystem Role -->
+        <section class="section ecosystem-role" id="ecosystem"
+            style="background: rgba(0, 255, 136, 0.05); border-bottom: 1px solid var(--color-accent-primary);">
+            <div class="section-header">
+                <span class="section-number" style="color: var(--color-accent-primary)">00</span>
+                <h2 class="section-title" style="color: var(--color-accent-primary)" data-i18n="ecosystem.title">Ecosystem Role</h2>
+            </div>
+            <div class="section-content">
+                <div class="phase-block"
+                    style="width: 100%; display: flex; align-items: center; gap: 2rem; margin-bottom: 0;">
+                    <div class="phase-icon"
+                        style="border-color: var(--color-accent-primary); width: 80px; height: 80px;">
+                        <svg class="vector-icon" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-primary)"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            style="width: 32px; height: 32px;">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path
+                                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 style="margin-bottom: 0.5rem; font-family: var(--font-display);" data-i18n="ecosystem.phase">Phase 6: Automation</h3>
+                        <p style="margin-bottom: 0;" data-i18n="ecosystem.desc">
+                            This project embodies the **Systemization** phase, removing the founder from the loop. It
+                            demonstrates how to scale physical production through software-driven orchestration.
+                        </p>
+                        <a href="pipeline.html"
+                                style="color: var(--color-accent-primary); text-decoration: underline; margin-top: 0.5rem; display: inline-block;" data-i18n="ecosystem.link">See
+                                Pipeline →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Framework Structure: FDM Farm -->
+        <section class="section" id="framework-overview">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title" data-i18n="framework.title">FDM Farm – Automazione Industriale Scalabile</h2>
+            </div>
+
+            <!-- 1. Problema -->
+            <div class="framework-block" id="fr-problema">
+                <h3 data-i18n="framework.s1.title">1. Problema</h3>
+                <p data-i18n="framework.s1.desc">
+                    Le farm di stampa 3D manuali sono non scalabili: richiedono supervisione costante, soffrono di
+                    downtime elevati per cambio turno (notte/weekend) e hanno tassi di errore umano (fallimenti di
+                    stampa) che erodono i margini fino al 15-20%.
+                    Il costo del lavoro mangia il vantaggio competitivo della stampa additiva.
+                </p>
+            </div>
+
+            <!-- 2. Soluzione -->
+            <div class="framework-block" id="fr-soluzione">
+                <h3 data-i18n="framework.s2.title">2. Soluzione</h3>
+                <p data-i18n="framework.s2.desc">
+                    Un sistema di orchestrazione intelligente che virtualizza la flotta di stampanti. Il software
+                    gestisce code, assegna job in base alla compatibilità materiale/stampante e monitora la qualità in
+                    tempo reale via computer vision.
+                    Trasforma una collezione di macchine in un'unica entità produttiva autonoma 24/7.
+                </p>
+            </div>
+
+            <!-- 3. Risultati e Metriche -->
+            <div class="framework-block" id="fr-risultati">
+                <h3 data-i18n="framework.s3.title">3. Risultati Chiave</h3>
+                <ul class="feature-list">
+                    <li data-i18n="framework.s3.i1"><strong>Produttività:</strong> +400% output rispetto a gestione manuale (da 176 a 720
+                        unità/mese).</li>
+                    <li data-i18n="framework.s3.i2"><strong>Costi:</strong> Riduzione costo lavoro per unità da €8 a €1.5.</li>
+                    <li data-i18n="framework.s3.i3"><strong>Affidabilità:</strong> Tasso di successo stampe > 95% grazie a detection AI.</li>
+                    <li data-i18n="framework.s3.i4"><strong>ROI:</strong> Payback dell'investimento infrastrutturale in &#60; 6 mesi.</li>
+                </ul>
+            </div>
+
+            <!-- 4. Business Model -->
+            <div class="framework-block" id="fr-business">
+                <h3 data-i18n="framework.s4.title">4. Modello di Business</h3>
+                <p data-i18n="framework.s4.desc">
+                    Ottimizzazione interna e Servizio B2B:
+                </p>
+                <ul class="feature-list">
+                    <li data-i18n="framework.s4.i1">Ottimizzazione costi interni per Luna/r (vantaggio competitivo di costo).</li>
+                    <li data-i18n="framework.s4.i2">Service Bureau B2B: Produzione conto terzi per piccole serie (100-1000 pz).</li>
+                    <li data-i18n="framework.s4.i3">Consulenza Tecnica: Pacchetti "Farm-in-a-Box" per aziende che vogliono internalizzare la
+                        produzione.</li>
+                </ul>
+            </div>
+
+            <!-- 5. Tecnologia -->
+            <div class="framework-block" id="fr-tecnologia">
+                <h3 data-i18n="framework.s5.title">5. Tecnologia e Vantaggio Competitivo</h3>
+                <ul class="feature-list">
+                    <li data-i18n="framework.s5.i1"><strong>Stack:</strong> Python/Klipper backend con orchestrazione job proprietaria.</li>
+                    <li data-i18n="framework.s5.i2"><strong>AI Monitoring:</strong> Modulo di computer vision custom per rilevamento "spaghetti
+                        failure" e distacco piatto.</li>
+                    <li data-i18n="framework.s5.i3"><strong>Auto-Recovery:</strong> Logica di riassegnazione automatica dei job falliti su stampanti
+                        libere.</li>
+                </ul>
+            </div>
+
+            <!-- 6. Stato e Roadmap -->
+            <div class="framework-block" id="fr-roadmap">
+                <h3 data-i18n="framework.s6.title">6. Stato Attuale e Roadmap</h3>
+                <p data-i18n="framework.s6.status"><strong>Stato:</strong> Pienamente operativo su flotta di 15+ macchine. Gestisce 100% della
+                    produzione Luna/r.</p>
+                <ul class="feature-list">
+                    <li data-i18n="framework.s6.i1"><strong>Q2 2026:</strong> Integrazione bracci robotici per rimozione pezzi automatica
+                        (lights-out manufacturing completo).</li>
+                    <li data-i18n="framework.s6.i2"><strong>Q4 2026:</strong> Rilascio SaaS della dashboard di gestione per terze parti.</li>
+                </ul>
+            </div>
+
+            <!-- 7. Ruolo Founder -->
+            <div class="framework-block" id="fr-ruolo">
+                <h3 data-i18n="framework.s7.title">7. Il Mio Ruolo</h3>
+                <ul class="feature-list">
+                    <li data-i18n="framework.s7.i1">Sviluppo integrale del middleware di gestione code in Python.</li>
+                    <li data-i18n="framework.s7.i2">Setup fisico ed elettrico della farm (ventilazione, sicurezza, networking).</li>
+                    <li data-i18n="framework.s7.i3">Definizione dei profili di stampa ottimizzati per ridurre scarti e tempi.</li>
+                </ul>
+            </div>
+
+            <!-- 8. ESG Impact -->
+            <div class="framework-block" id="fr-esg">
+                <h3 data-i18n="framework.s8.title">8. Impatto Sostenibilità (ESG)</h3>
+                <ul class="feature-list">
+                    <li data-i18n="framework.s8.i1"><strong>Energy Efficiency:</strong> Algoritmi di scheduling che raggruppano job termicamente
+                        simili, riducendo consumi del 15%.</li>
+                    <li data-i18n="framework.s8.i2"><strong>Scarto Minimo:</strong> Detection AI ferma le stampe fallite subito, salvando Kg di
+                        plastica.</li>
+                </ul>
+            </div>
+
+            <!-- 9. CTA -->
+            <div class="framework-block cta-block"
+                style="text-align: center; margin-top: 3rem; background: rgba(0,255,136,0.1); padding: 2rem; border-radius: 8px;">
+                <h3 style="color: var(--color-accent-primary);" data-i18n="cta.title">Need Scalable Production?</h3>
+                <p style="margin-bottom: 1.5rem;" data-i18n="cta.desc">Trasformiamo la tua prototipazione in produzione di serie.</p>
+                <a href="mailto:contact@giacomobertapelle.com" class="cta-button" data-i18n="cta.button">Prenota Audit Farm</a>
+            </div>
+
+        </section>
+
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h4>Giacomo Bertapelle</h4>
+                <p>Tech Automation Consultant.<br>Bologna, Italy.</p>
+                <p class="copyright">&copy; 2026</p>
+            </div>
+            <div class="footer-skills">
+                <div class="skills-wrapper">
+                    <div class="skill-group">
+                        <h4 data-i18n="about.skills.dev">Development</h4>
+                        <ul>
+                            <li>JavaScript / React / Node.js</li>
+                            <li>Python / Automation</li>
+                            <li>Full-Stack Architecture</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h4 data-i18n="about.skills.mfg">Manufacturing</h4>
+                        <ul>
+                            <li>3D Printing / CAD</li>
+                            <li>Digital Fabrication</li>
+                            <li>Process Optimization</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h4 data-i18n="about.skills.biz">Business</h4>
+                        <ul>
+                            <li>E-commerce Operations</li>
+                            <li>Product Strategy</li>
+                            <li>Systems Thinking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-trust">
+                <h4 data-i18n="footer.trust.title">Trust & Privacy</h4>
+                <p data-i18n="footer.trust.data"><strong>Data Security:</strong> We treat your business data with strict confidentiality.</p>
+                <p data-i18n="footer.trust.auto"><strong>Responsible Automation:</strong> Systems to empower teams, not replace them.</p>
+                <p data-i18n="footer.trust.compliance"><strong>Compliance:</strong> GDPR Compliant architecture.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Progress Indicator -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Floating CTA Button -->
+    <a href="mailto:contact@giacomobertapelle.com?subject=FDM%20Farm%20Inquiry%20-%20Pricing%20%26%20Information"
+        class="floating-cta" id="floatingCta">
+        <span class="cta-icon">💬</span>
+        <span class="cta-text" data-i18n="floating_cta">Get Pricing & Info</span>
+    </a>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="../js/navigation.js"></script>
+    <script src="../js/translation.js"></script>
+    <script src="../js/fdm-farm.js"></script>
+</body>
+
+</html>

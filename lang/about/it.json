@@ -1,0 +1,44 @@
+{
+    "hero": {
+        "title": "PROGETTO <br><span>SISTEMI</span> <br>NON SOLO <br>CODICE."
+    },
+    "bio": {
+        "lead": "Con sede a Bologna, opero all'intersezione tra <strong>Industria 4.0</strong>, <strong>Meccatronica</strong> ed <strong>Ecosistemi Digitali</strong>.",
+        "p1": "Il mio percorso professionale è definito da un'unica ossessione: l'<strong>Ottimizzazione</strong>. Che si tratti di una farm di produzione 3D o di un'operazione di e-commerce globale, cerco i punti di attrito dove l'energia umana viene sprecata in compiti ripetitivi.",
+        "p2": "Sfrutto una rara integrazione verticale di competenze. Posso progettare una pipeline di ottimizzazione CAD personalizzata (DfAM) al mattino e architettare un gestore di automazione full-stack per le API di Shopify nel pomeriggio. Questo mi permette di vedere la \"Grande Orbita\" gestendo al contempo le \"Micro Lune\" delle operazioni quotidiane.",
+        "p3": "Attualmente, mi concentro sull'aiutare produttori specializzati e founder di e-commerce ad alta crescita a scalare senza aggiungere personale non necessario. Costruisco i sistemi che rendono la loro crescita sostenibile."
+    },
+    "stats": {
+        "s1": {
+            "val": "50+",
+            "label": "Progetti Consegnati"
+        },
+        "s2": {
+            "val": "40%",
+            "label": "Aumento Velocità Medio"
+        },
+        "s3": {
+            "val": "€100k+",
+            "label": "Impatto Documentato"
+        }
+    },
+    "expertise": {
+        "title": "COMPETENZE CORE",
+        "c1": {
+            "title": "Digital Ops",
+            "desc": "Orchestrazione API, integrazioni CRM/ERP personalizzate, automazione di magazzino e sistemi Low-Code/High-Control."
+        },
+        "c2": {
+            "title": "Meccatronica",
+            "desc": "Manifattura Additiva (FDM/SLA), reti di sensori IoT, orchestrazione robotica e applicazioni di scienza dei materiali."
+        },
+        "c3": {
+            "title": "Meta-Skill",
+            "desc": "Systems Thinking, Lean Manufacturing, Prototipazione Rapida e Project Management Tecnico."
+        }
+    },
+    "cta": {
+        "title": "PRONTO A SISTEMIZZARE?",
+        "link": "PARLIAMO DI SISTEMI →"
+    }
+}

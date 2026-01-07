@@ -1,0 +1,51 @@
+{
+    "hero": {
+        "title": "Casi Studio",
+        "subtitle": "Problemi reali. Soluzioni ingegnerizzate. Impatto quantificabile."
+    },
+    "common": {
+        "situation": "Situazione",
+        "approach": "Approccio",
+        "results_title": "Risultati"
+    },
+    "items": {
+        "c1": {
+            "title": "Automazione Print Farm @ ProtoLabs Bologna",
+            "s1": "Cliente: Service Bureau di Stampa 3D",
+            "s2": "Punto di partenza: 45 ordini/settimana",
+            "s3": "Fallimenti: tasso del 12%",
+            "s4": "Problema: Scambio manuale di schede SD",
+            "a1": "Diagnosi: audit di 2 giorni",
+            "a2": "Stack: OctoPrint + Coda API Personalizzata",
+            "a3": "Integrazione: Notifiche Slack",
+            "a4": "Timeline: 3 Settimane",
+            "r1_title": "+40% Output",
+            "r1_desc": "Capacità di 65 ordini/settimana",
+            "r2_title": "-65% Fallimenti",
+            "r2_desc": "Ridotto a <4%",
+            "r3_title": "-15 ore/settimana",
+            "r3_desc": "Lavoro manuale risparmiato",
+            "quote": "\"Giacomo non ha solo riparato le stampanti; ha sistemato il workflow. Abbiamo smesso di rincorrere le emergenze e abbiamo iniziato a scalare.\"",
+            "author": "— Marco V., Operations Manager"
+        },
+        "c2": {
+            "title": "E-com Fulfillment @ Lunar Artifacts",
+            "s1": "Cliente: Brand di Gioielleria D2C",
+            "s2": "Punto di partenza: Prep STL manuale per ordine",
+            "s3": "Collo di bottiglia: 20 min di lavoro CAD/ordine",
+            "s4": "Problema: Impossibilità di scalare le ads",
+            "a1": "Diagnosi: analisi del workflow",
+            "a2": "Stack: Scripting Python + Webhook Shopify",
+            "a3": "Logica: Generazione automatica di varianti STL",
+            "a4": "Timeline: 4 Settimane",
+            "r1_title": "Zero Prep Manuale",
+            "r1_desc": "Generazione completamente automatizzata",
+            "r2_title": "Consegna in 24 ore",
+            "r2_desc": "Ridotto da 3-4 giorni",
+            "r3_title": "ROI: 2 Mesi",
+            "r3_desc": "Periodo di ammortamento",
+            "quote": "\"Eravamo limitati a 50 ordini a settimana a causa del tempo di design. Ora possiamo farne 500 senza aggiungere personale.\"",
+            "author": "— Elena R., Founder"
+        }
+    }
+}

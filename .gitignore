@@ -35,6 +35,8 @@ desktop.ini
 # Vercel
 .vercel
 
+.random_shit
+
 # Temporary files
 *.tmp
 .cache/

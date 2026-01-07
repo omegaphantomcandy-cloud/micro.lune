@@ -1,0 +1,71 @@
+{
+    "hero": {
+        "title": "FabLab Projects",
+        "subtitle": "Innovating at the Intersection of Community & Technology",
+        "m1": "Digital Fabrication",
+        "m2": "Robotics",
+        "m3": "Education",
+        "m4": "Since 2018"
+    },
+    "ecosystem": {
+        "title": "Ecosystem Role",
+        "phase": "Phase 1: Community First",
+        "desc": "The FabLab serves as the **Community Engine**, fostering a tribe of makers and early adopters. It validates ideas through direct engagement and educational initiatives.",
+        "link": "See Pipeline →"
+    },
+    "framework": {
+        "title": "FabLab – Open Experimental Laboratory",
+        "s1": {
+            "title": "1. Problem",
+            "desc": "There is a huge gap between university theory and industrial practice. SMEs struggle to adopt Industry 4.0 technologies due to a lack of practical know-how, while students and makers lack access to professional equipment to prototype their ideas."
+        },
+        "s2": {
+            "title": "2. Solution",
+            "desc": "A FabLab as a local innovation hub: physical space with open access to 3D printers, CNC, laser cutting, and electronics. Not just machines, but an open-source knowledge-sharing ecosystem where real problems are solved by building functional prototypes."
+        },
+        "s3": {
+            "title": "3. Key Results",
+            "i1": "<strong>Community:</strong> 500+ students trained via practical workshops.",
+            "i2": "<strong>Innovation:</strong> 50+ hardware prototypes developed and tested.",
+            "i3": "<strong>Impact:</strong> 12 startups incubated or supported in the MVP phase.",
+            "i4": "<strong>Accessibility:</strong> Operational 24/7 for keyholder members."
+        },
+        "s4": {
+            "title": "4. Business Model",
+            "desc": "Mixed public-private sustainability:",
+            "i1": "Monthly memberships for machine access.",
+            "i2": "Workshops and training courses (B2C and B2B).",
+            "i3": "Rapid R&D consultancy for local companies."
+        },
+        "s5": {
+            "title": "5. Tech & Infrastructure",
+            "i1": "<strong>Additive:</strong> Diversified FDM farm, SLA for fine details.",
+            "i2": "<strong>Subtractive:</strong> Desktop CNC for PCB and wood/aluminum milling.",
+            "i3": "<strong>Electronics:</strong> Soldering and IoT testing stations (ESP32/Arduino)."
+        },
+        "s6": {
+            "title": "6. Status & Roadmap",
+            "status": "<strong>Status:</strong> Consolidated hub and regional reference point.",
+            "i1": "<strong>Focus 2026:</strong> Expansion towards bio-fabrication and sustainable materials.",
+            "i2": "<strong>Integration:</strong> Creation of a local node for distributed recycling (Precious Plastic)."
+        },
+        "s7": {
+            "title": "7. My Role",
+            "i1": "Design and setup of the technical laboratory infrastructure.",
+            "i2": "Development of training programs and technical mentorship for members.",
+            "i3": "Managing partnerships with institutions and local entities."
+        },
+        "s8": {
+            "title": "8. Sustainability (ESG)",
+            "i1": "<strong>Circular Learning:</strong> Promoting the 'Repair over Replace' philosophy.",
+            "i2": "<strong>Inclusivity:</strong> Dedicated STEM programs for underrepresented categories in tech.",
+            "i3": "<strong>Local Production:</strong> Reduced logistics thanks to zero-km fabrication."
+        }
+    },
+    "cta": {
+        "title": "Join the Movement",
+        "desc": "Have a project to prototype? Let's build it together.",
+        "button": "Become a Member"
+    },
+    "floating_cta": "Contact Us"
+}

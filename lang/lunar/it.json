@@ -1,0 +1,72 @@
+{
+    "hero": {
+        "title": "Luna/r",
+        "subtitle": "Piattaforma E-Commerce Premium di Stampa 3D",
+        "m1": "E-commerce",
+        "m2": "Stampa 3D",
+        "m3": "Tecnologia NFC",
+        "m4": "2023-2024"
+    },
+    "ecosystem": {
+        "title": "Ruolo nell'Ecosistema",
+        "phase": "Fase 2: MVP & Validazione",
+        "desc": "Luna/r funge da **Motore di Validazione** nella pipeline. Test della domanda di mercato per beni fisici di alta gamma integrati con NFC utilizzando principi di lean manufacturing.",
+        "link": "Vedi Pipeline →"
+    },
+    "framework": {
+        "title": "Luna/r – E-Commerce Circolare Intelligente",
+        "s1": {
+            "title": "1. Problema",
+            "desc": "L'e-commerce di prodotti fisici soffre di una pesante inefficienza: enormi stock invenduti, lunghi tempi di produzione manuale e una disconnessione tra prodotto fisico e valore digitale. I modelli tradizionali 'make-to-stock' generano costi di magazzino insostenibili e uno spreco di materiali del 20-30% per over-produzione."
+        },
+        "s2": {
+            "title": "2. Soluzione",
+            "desc": "Luna/r implementa un modello 'make-on-demand' puro: ogni prodotto viene fabbricato solo dopo l'ordine, utilizzando una pipeline automatizzata che va dal check-out alla stampante 3D senza intervento umano. Integra chip NFC in ogni oggetto, trasformando manufatti passivi in portali digitali programmabili dal cliente finale. Velocità di un dropshipping, qualità dell'artigianato digitale."
+        },
+        "s3": {
+            "title": "3. Risultati Chiave",
+            "i1": "<strong>Efficienza:</strong> Tempo medio order-to-print < 4 ore (vs giorni manuali).",
+            "i2": "<strong>Economia:</strong> 0% invenduto (modello zero-inventory). Margine lordo > 200% su parti fisiche.",
+            "i3": "<strong>Adattabilità:</strong> 500+ design parametrizzabili caricati a catalogo.",
+            "i4": "<strong>Utenti:</strong> 340+ ordini evasi con rating medio 4.8/5."
+        },
+        "s4": {
+            "title": "4. Modello di Business",
+            "desc": "Ibrido E-commerce / Marketplace di Asset Digitali:",
+            "i1": "Vendita diretta di prodotti fisici con markup di manifattura.",
+            "i2": "Vendita di file digitali (SaaS-like) con margine 100%.",
+            "i3": "Opzioni di personalizzazione premium (Design-as-a-Service)."
+        },
+        "s5": {
+            "title": "5. Tecnologia e Vantaggio Competitivo",
+            "i1": "<strong>Infrastruttura:</strong> Stack Vercel Edge per latenza globale < 100ms.",
+            "i2": "<strong>Pipeline Proprietaria:</strong> Motore di validazione STL e slicing automatico integrato nel backend.",
+            "i3": "<strong>IoT Layer:</strong> Sistema proprietario di crittografia NFC end-to-end (AES-256) che permette ai clienti di riprogrammare i chip in sicurezza."
+        },
+        "s6": {
+            "title": "6. Stato Attuale e Roadmap",
+            "status": "<strong>Stato:</strong> MVP validato, revenue-generating, 500+ utenti attivi mensili.",
+            "i1": "<strong>Q1 2026:</strong> Espansione catalogo a 1000 design, lancio app mobile nativa.",
+            "i2": "<strong>Q2 2026:</strong> API per integrazione con farm esterne (Distributed Manufacturing).",
+            "i3": "<strong>Q3 2026:</strong> Licensing del sistema di gestione ordini a terzi."
+        },
+        "s7": {
+            "title": "7. Il Mio Ruolo",
+            "i1": "Architettura Full-Stack (Next.js + Python backend).",
+            "i2": "Sviluppo della logica di pricing dinamico basata sul volume di materiale.",
+            "i3": "Design della linea prodotti 'Cyberpunk' e ingegnerizzazione per la stampa 3D (DfAM)."
+        },
+        "s8": {
+            "title": "8. Impatto Sostenibilità (ESG)",
+            "i1": "<strong>Zero Sprechi:</strong> Produzione solo su domanda elimina completamente gli sprechi da invenduto.",
+            "i2": "<strong>Materiali Locali:</strong> Uso esclusivo di PLA/PETG di origine europea per ridurre le emissioni Scope 3.",
+            "i3": "<strong>Circolarità:</strong> Programma di ritiro e riciclo facilitato dai dati NFC."
+        }
+    },
+    "cta": {
+        "title": "Interessato a Luna/r?",
+        "desc": "Cercando partner per scalare la produzione distribuita.",
+        "button": "Richiedi Investor Deck"
+    },
+    "floating_cta": "Ottieni Prezzi e Info"
+}

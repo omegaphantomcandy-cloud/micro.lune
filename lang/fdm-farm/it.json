@@ -1,0 +1,69 @@
+{
+    "hero": {
+        "title": "FDM Manufacturing Farm",
+        "subtitle": "Sistemi di Produzione Automatizzati per Fused Deposition Modeling",
+        "m1": "White Paper Tecnico",
+        "m2": "Dicembre 2025",
+        "m3": "Giacomo Bertapelle"
+    },
+    "ecosystem": {
+        "title": "Ruolo nell'Ecosistema",
+        "phase": "Fase 6: Automazione",
+        "desc": "Questo progetto incarna la fase di **Sistemizzazione**, rimuovendo il founder dal loop. Dimostra come scalare la produzione fisica attraverso l'orchestrazione guidata dal software.",
+        "link": "Vedi Pipeline →"
+    },
+    "framework": {
+        "title": "FDM Farm – Automazione Industriale Scalabile",
+        "s1": {
+            "title": "1. Problema",
+            "desc": "Le farm di stampa 3D manuali non sono scalabili: richiedono supervisione costante, soffrono di elevati tempi di inattività durante i cambi turno (notte/weekend) e hanno tassi di errore umano (fallimenti di stampa) che erodono i margini del 15-20%. Il costo del lavoro mangia il vantaggio competitivo della produzione additiva."
+        },
+        "s2": {
+            "title": "2. Soluzione",
+            "desc": "Un sistema di orchestrazione intelligente che virtualizza la flotta di stampanti. Il software gestisce le code, assegna i job in base alla compatibilità materiale/stampante e monitora la qualità in tempo reale tramite computer vision. Trasforma una collezione di macchine in un'unica entità produttiva autonoma 24/7."
+        },
+        "s3": {
+            "title": "3. Risultati Chiave",
+            "i1": "<strong>Produttività:</strong> +400% di output rispetto alla gestione manuale (da 176 a 720 unità/mese).",
+            "i2": "<strong>Costi:</strong> Riduzione del costo del lavoro per unità da €8 a €1.5.",
+            "i3": "<strong>Affidabilità:</strong> Tasso di successo delle stampe > 95% grazie alla detection AI.",
+            "i4": "<strong>ROI:</strong> Ritorno dell'investimento infrastrutturale in < 6 mesi."
+        },
+        "s4": {
+            "title": "4. Modello di Business",
+            "desc": "Ottimizzazione interna e Servizio B2B:",
+            "i1": "Ottimizzazione dei costi interni per Luna/r (vantaggio competitivo di costo).",
+            "i2": "Service Bureau B2B: Produzione conto terzi per piccole serie (100-1000 pz).",
+            "i3": "Consulenza Tecnica: Pacchetti 'Farm-in-a-Box' per aziende che vogliono internalizzare la produzione."
+        },
+        "s5": {
+            "title": "5. Tecnologia e Vantaggio Competitivo",
+            "i1": "<strong>Stack:</strong> Backend Python/Klipper con orchestrazione dei job proprietaria.",
+            "i2": "<strong>Monitoraggio AI:</strong> Modulo di computer vision personalizzato per il rilevamento di 'spaghetti failure' e distacco dal piatto.",
+            "i3": "<strong>Auto-Recovery:</strong> Logica di riassegnazione automatica dei job falliti su stampanti libere."
+        },
+        "s6": {
+            "title": "6. Stato Attuale e Roadmap",
+            "status": "<strong>Stato:</strong> Pienamente operativo su una flotta di 15+ macchine. Gestisce il 100% della produzione di Luna/r.",
+            "i1": "<strong>Q2 2026:</strong> Integrazione di bracci robotici per la rimozione automatica dei pezzi (manifattura lights-out completa).",
+            "i2": "<strong>Q4 2026:</strong> Rilascio SaaS della dashboard di gestione per terze parti."
+        },
+        "s7": {
+            "title": "7. Il Mio Ruolo",
+            "i1": "Sviluppo integrale del middleware di gestione delle code in Python.",
+            "i2": "Setup fisico ed elettrico della farm (ventilazione, sicurezza, networking).",
+            "i3": "Definizione di profili di stampa ottimizzati per ridurre scarti e tempi."
+        },
+        "s8": {
+            "title": "8. Impatto Sostenibilità (ESG)",
+            "i1": "<strong>Efficienza Energetica:</strong> Algoritmi di scheduling che raggruppano job termicamente simili, riducendo i consumi del 15%.",
+            "i2": "<strong>Scarto Minimo:</strong> La detection AI ferma le stampe fallite immediatamente, risparmiando kg di plastica."
+        }
+    },
+    "cta": {
+        "title": "Hai bisogno di una produzione scalabile?",
+        "desc": "Trasformiamo la tua prototipazione in produzione di serie.",
+        "button": "Prenota Audit Farm"
+    },
+    "floating_cta": "Ottieni Prezzi e Info"
+}

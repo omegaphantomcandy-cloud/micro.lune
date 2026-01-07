@@ -1,0 +1,102 @@
+{
+    "hero": {
+        "title": "MICRO LUNE,<br><span>GRAND ORBITS.</span>",
+        "subtitle": "Tech Automation & 3D Manufacturing. <br>I design digital ecosystems that scale autonomously. <br><strong>Less waste, more value.</strong>",
+        "cta_projects": "Projects",
+        "cta_framework": "The Framework"
+    },
+    "projects": {
+        "title": "Micro Moons (Projects)",
+        "p1": {
+            "title": "Luna/r",
+            "category": "3D Printing · E-Commerce · Modular Design",
+            "desc": "Luna/r is my micro moon dedicated to smart physical products. A 3D printing e-commerce where files, materials, and logistics are designed to last: modular design, on-demand printable components, NFC to extend product life into the digital realm. Proprietary CAD pipeline, automated fulfillment, and zero manual file prep: less waste, fewer errors, more value for every gram of material."
+        },
+        "p2": {
+            "title": "Farm Automation Systems",
+            "category": "Farm Automation · Workflow · Waste Reduction",
+            "desc": "Here I work on the productive heart: print farms and small plants. Machine orchestration, material management, and workflows designed to keep printers running, not people up late. The goal is not just +40% production speed: it's production that consumes less human time, less waste in trial-and-error, and more process intelligence for every order."
+        },
+        "p3": {
+            "title": "FabLab Projects",
+            "category": "Open Lab · Industry 4.0 · Solution Reuse",
+            "desc": "The FabLab is the micro moon where the low-impact future is experimented with. Robotics, IoT, and digital fabrication used to build prototypes that can become stable systems, not just trade show demos. Every field test generates guidelines, templates, and replicable practices for companies that want to do Industry 4.0 without throwing money at showcase projects."
+        },
+        "p4": {
+            "title": "Dream Frequency / Neuro-Tech",
+            "category": "Neurotech · Ethical Data · Digital Wellness",
+            "desc": "This is the most experimental micro moon: dreams, brain data, multimodal interfaces. A research project exploring how to visualize brain frequencies during sleep, transforming them into visual and sound experiences, with great attention to ethics, privacy, and neural data ownership. Here too, the logic is circular: data is not extracted and sold, but returned to people as tools for introspection, creativity, and awareness."
+        }
+    },
+    "framework": {
+        "title": "The Micro Moons Framework",
+        "vision_lead": "Instead of monoliths, I design <strong>constellations of interconnected micro-systems</strong>.",
+        "vision_detail": "Every Micro Moon is a functional laboratory: it tests innovation, validates impact, and standardizes winning solutions.",
+        "vision_method": "A circular method that reduces risks and transforms every project into a reusable and scalable asset.",
+        "c1": {
+            "title": "Waste Reduction",
+            "desc": "Materials, human time, mental energy."
+        },
+        "c2": {
+            "title": "Reuse",
+            "desc": "Code, pipelines, product and process components."
+        },
+        "c3": {
+            "title": "Regeneration",
+            "desc": "Data, insights, communities, and skills that flow back into the system instead of dissipating."
+        }
+    },
+    "methodology": {
+        "title": "Long-Orbit Project Management",
+        "intro": "<strong>I don't launch projects, I design orbits.</strong><br>Every system is engineered for economic and operational self-sufficiency, eliminating dependence on emergency interventions. I plan, design, and measure with a single purpose: to guarantee <strong>concrete impact and scalable margins.</strong>",
+        "s1": {
+            "title": "Clear Scope",
+            "desc": "But room to iterate."
+        },
+        "s2": {
+            "title": "Integrated Roadmap",
+            "desc": "Combining hardware, software, and people."
+        },
+        "s3": {
+            "title": "Real KPIs",
+            "desc": "Measuring efficiency, impact, and avoided waste."
+        }
+    },
+    "about": {
+        "title": "About",
+        "lead": "Bridging the gap between <strong>Hardware Engineering</strong> and <strong>Digital Strategy</strong>.",
+        "p1": "I operate at the intersection of <strong>Industry 4.0</strong> and custom software development. Unlike traditional agencies, I offer a vertical integration of skills—from CAD optimization (DfAM) to full-stack e-commerce automation.",
+        "p2": "Based in Bologna, a hub for high-tech mechanics. My approach combines the precision of <strong>manufacturing consultancy</strong> (SolidWorld approach) with the agility of modern <strong>digital product labs</strong> (MadeInAdd model).",
+        "testimonials": {
+            "title": "What Clients Say",
+            "t1": {
+                "text": "\"Giacomo's technical depth saved us €5k in wasted materials alone. He understands both the code and the machine.\"",
+                "author": "— Carlo R., Founder, Print-on-Demand Startup"
+            },
+            "t2": {
+                "text": "\"Structured but flexible. What we thought would take 3 months, he optimized in 6 weeks.\"",
+                "author": "— Alessandro B., Ops Manager"
+            }
+        },
+        "stat1": "50+ Projects",
+        "stat2": "40% Speed",
+        "stat3": "€100k+",
+        "skills": {
+            "dev": "Development",
+            "mfg": "Manufacturing",
+            "biz": "Business"
+        }
+    },
+    "contact": {
+        "title": "Get in Touch",
+        "text": "Open for consulting, collaboration, and interesting projects."
+    },
+    "footer": {
+        "trust": {
+            "title": "Trust & Privacy",
+            "data": "<strong>Data Security:</strong> We treat your business data with strict confidentiality.",
+            "auto": "<strong>Responsible Automation:</strong> Systems to empower teams, not replace them.",
+            "compliance": "<strong>Compliance:</strong> GDPR Compliant architecture."
+        }
+    }
+}

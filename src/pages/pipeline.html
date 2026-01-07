@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pipeline - Giacomo Bertapelle</title>
+    <meta name="description"
+        content="Bootstrap. Crowdfund. Scale. A scientifically-grounded framework for rapid innovation.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="../css/pipeline.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="index.html" class="nav-logo-link">
+            <svg class="eye-logo" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="currentColor"
+                    stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2" fill="none" />
+            </svg>
+        </a>
+        <!-- Mobile Menu Toggle removed -->
+        <div class="nav-links">
+            <a href="index.html" class="nav-link" data-i18n="nav.base">Base</a>
+            <a href="index.html#projects" class="nav-link" data-i18n="nav.microlune">Microlune</a>
+            <a href="pipeline.html" class="nav-link active" data-i18n="nav.framework">Framework</a>
+            <a href="resources.html" class="nav-link" data-i18n="nav.resources">Resources</a>
+            <a href="about.html" class="nav-link" data-i18n="nav.about">About</a>
+            <a href="index.html#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pipeline-hero">
+        <div class="pipeline-hero-content">
+            <h1 class="pipeline-title">
+                <span class="word" data-i18n="hero.title1">THE</span>
+                <span class="word highlight" data-i18n="hero.title2">PIPELINE</span>
+            </h1>
+            <p class="pipeline-subtitle" data-i18n="hero.subtitle">From Prototype to Market.</p>
+            <p class="pipeline-description" data-i18n="hero.description">
+                The only framework that combines Crowdfunding + European Grants + Community Validation.
+                Designed for makers who want to raise capital without VC dilution.
+            </p>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Who It's For -->
+    <section class="section-audience">
+        <h2 class="section-title audience-title" data-i18n="audience.title">Who This Is For</h2>
+        <div class="audience-grid">
+            <div class="audience-card">
+                <h3 class="audience-card-title primary" data-i18n="audience.c1.title">Makers & Small Business</h3>
+                <ul class="audience-list">
+                    <li data-i18n="audience.c1.i1">You have a physical or hybrid product.</li>
+                    <li data-i18n="audience.c1.i2">You’re bootstrapping with limited budget.</li>
+                    <li data-i18n="audience.c1.i3">Crowdfunding feels risky and confusing.</li>
+                </ul>
+            </div>
+            <div class="audience-card">
+                <h3 class="audience-card-title secondary" data-i18n="audience.c2.title">Tech Founders</h3>
+                <ul class="audience-list">
+                    <li data-i18n="audience.c2.i1">You need €50k–€500k to validate and scale.</li>
+                    <li data-i18n="audience.c2.i2">You want to avoid early equity dilution.</li>
+                    <li data-i18n="audience.c2.i3">You’re considering crowdfunding + grants.</li>
+                </ul>
+            </div>
+            <div class="audience-card">
+                <h3 class="audience-card-title tertiary" data-i18n="audience.c3.title">Innovation Teams</h3>
+                <ul class="audience-list">
+                    <li data-i18n="audience.c3.i1">You want hands-on workshops for your team.</li>
+                    <li data-i18n="audience.c3.i2">You need a repeatable method for innovation.</li>
+                    <li data-i18n="audience.c3.i3">You care about real-world examples.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Flow -->
+    <section class="pipeline-flow-section">
+        <div class="pipeline-line"></div>
+
+        <!-- Phase 1: Community Validation -->
+        <div class="phase-block" data-category="trust">
+            <div class="phase-marker">01</div>
+            <div class="phase-icon">
+                <svg itemprop="image" class="vector-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+            </div>
+            <div class="phase-content">
+                <h2 class="phase-title" data-i18n="flow.p1.title">Community Validation</h2>
+                <div class="phase-tags">
+                    <span class="tag trust" data-i18n="flow.p1.t1">Trust</span>
+                    <span class="tag" data-i18n="flow.p1.t2">Demand</span>
+                </div>
+                <p>
+                    <strong data-i18n="flow.p1.goal">Goal: Engage 500+ potential customers in 6–8 weeks.</strong><br>
+                    <span data-i18n="flow.p1.how">How? Discord communities, pilot programs, and real conversations. Build demand before supply.</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- Phase 2: MVP Development -->
+        <div class="phase-block right" data-category="tech">
+            <div class="phase-marker">02</div>
+            <div class="phase-icon">
+                <svg itemprop="image" class="vector-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+            </div>
+            <div class="phase-content">
+                <h2 class="phase-title" data-i18n="flow.p2.title">MVP Development</h2>
+                <div class="phase-tags">
+                    <span class="tag tech" data-i18n="flow.p2.t1">Tech</span>
+                    <span class="tag" data-i18n="flow.p2.t2">Lean</span>
+                </div>
+                <p>
+                    <strong data-i18n="flow.p2.goal">Build. Measure. Learn.</strong><br>
+                    <span data-i18n="flow.p2.how">Prioritize features using Jobs-to-be-Done. Rapid prototyping with 3D printing and low-code tools.</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- Phase 3: Crowdfunding Prep -->
+        <div class="phase-block" data-category="exclusiveness">
+            <div class="phase-marker">03</div>
+            <div class="phase-icon">
+                <svg itemprop="image" class="vector-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+            </div>
+            <div class="phase-content">
+                <h2 class="phase-title" data-i18n="flow.p3.title">Crowdfunding Prep</h2>
+                <div class="phase-tags">
+                    <span class="tag exclusiveness" data-i18n="flow.p3.t1">Exclusiveness</span>
+                    <span class="tag" data-i18n="flow.p3.t2">Validation</span>
+                </div>
+                <p>
+                    <strong data-i18n="flow.p3.goal">Pre-Campaign Audience Rule.</strong><br>
+                    <span data-i18n="flow.p3.how">Don't launch to crickets. Secure 30% conversion potential via email lists and communities before Day 1.</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- Phase 4: Campaign & Grants -->
+        <div class="phase-block right" data-category="trust">
+            <div class="phase-marker">04</div>
+            <div class="phase-icon">
+                <svg itemprop="image" class="vector-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                    </path>
+                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                </svg>
+            </div>
+            <div class="phase-content">
+                <h2 class="phase-title" data-i18n="flow.p4.title">Campaign & Grants</h2>
+                <div class="phase-tags">
+                    <span class="tag trust" data-i18n="flow.p4.t1">Trust</span>
+                    <span class="tag" data-i18n="flow.p4.t2">Grants</span>
+                </div>
+                <p>
+                    <strong data-i18n="flow.p4.goal">Hybrid Capital Strategy.</strong><br>
+                    <span data-i18n="flow.p4.how">Crowdfunding for early cash flow. European grants (SME instruments, regional funds) for scaling.</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- Phase 5: Fulfillment & Scaling -->
+        <div class="phase-block" data-category="tech">
+            <div class="phase-marker">05</div>
+            <div class="phase-icon">
+                <svg itemprop="image" class="vector-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                    <polyline points="17 6 23 6 23 12"></polyline>
+                </svg>
+            </div>
+            <div class="phase-content">
+                <h2 class="phase-title" data-i18n="flow.p5.title">Fulfillment & Scaling</h2>
+                <div class="phase-tags">
+                    <span class="tag tech" data-i18n="flow.p5.t1">Tech</span>
+                    <span class="tag" data-i18n="flow.p5.t2">SaaS</span>
+                </div>
+                <p>
+                    <strong data-i18n="flow.p5.goal">Deliver Promises.</strong><br>
+                    <span data-i18n="flow.p5.how">Inventory systems, logistics partners, and automation to maintain margins and speed.</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- Phase 6: Recurring Revenue -->
+        <div class="phase-block right" data-category="exclusiveness">
+            <div class="phase-marker">06</div>
+            <div class="phase-icon">
+                <svg itemprop="image" class="vector-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path
+                        d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                    </path>
+                </svg>
+            </div>
+            <div class="phase-content">
+                <h2 class="phase-title" data-i18n="flow.p6.title">Recurring Revenue</h2>
+                <div class="phase-tags">
+                    <span class="tag exclusiveness" data-i18n="flow.p6.t1">Exclusiveness</span>
+                    <span class="tag" data-i18n="flow.p6.t2">Freedom</span>
+                </div>
+                <p>
+                    <strong data-i18n="flow.p6.goal">Long-term Business.</strong><br>
+                    <span data-i18n="flow.p6.how">Subscriptions, memberships, and ecosystems. Turn one-off backers into lifetime customers.</span>
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Modular Services -->
+    <section class="section-services">
+        <div class="services-wrapper">
+            <h2 class="section-title" data-i18n="services.title">Engage With The Pipeline</h2>
+            <p class="section-subtitle services-subtitle" data-i18n="services.subtitle">
+                Choose the level of support that fits your stage and budget.
+            </p>
+
+            <div class="services-grid">
+
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <h3 class="service-title primary" data-i18n="services.s1.title">Group Workshops</h3>
+                    <p class="service-price">
+                        <span data-i18n="services.s1.price">€500–€1,500</span> <span class="service-unit" data-i18n="services.s1.unit">/ team</span>
+                    </p>
+                    <ul class="service-list">
+                        <li data-i18n="services.s1.i1">3-hour or 1-day intensive</li>
+                        <li data-i18n="services.s1.i2">"From Idea to Crowdfunding"</li>
+                        <li data-i18n="services.s1.i3">Templates & Roadmaps</li>
+                    </ul>
+                    <a href="index.html#contact" class="cta-link service-cta text-primary" data-i18n="services.s1.cta">Request Info →</a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card featured">
+                    <div class="popular-tag">POPULAR</div>
+                    <h3 class="service-title text-primary" data-i18n="services.s2.title">1:1 Consulting</h3>
+                    <p class="service-price">
+                        <span data-i18n="services.s2.price">€150–€300</span> <span class="service-unit" data-i18n="services.s2.unit">/ hour</span>
+                    </p>
+                    <ul class="service-list">
+                        <li data-i18n="services.s2.i1">Strategy Design</li>
+                        <li data-i18n="services.s2.i2">Campaign Review</li>
+                        <li data-i18n="services.s2.i3">Grant Application Review</li>
+                    </ul>
+                    <a href="index.html#contact" class="cta-link service-cta accent-primary" data-i18n="services.s2.cta">Book Clarity Call →</a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <h3 class="service-title tertiary" data-i18n="services.s3.title">Cohort Program</h3>
+                    <p class="service-price">
+                        <span data-i18n="services.s3.price">€3,000</span> <span class="service-unit" data-i18n="services.s3.unit">/ founder</span>
+                    </p>
+                    <ul class="service-list">
+                        <li data-i18n="services.s3.i1">12-Week Structured Program</li>
+                        <li data-i18n="services.s3.i2">Small Group (5-8 founders)</li>
+                        <li data-i18n="services.s3.i3">Community + Guidance</li>
+                    </ul>
+                    <a href="index.html#contact" class="cta-link service-cta text-primary" data-i18n="services.s3.cta">Join Waitlist →</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="pipeline-cta">
+        <h2 data-i18n="footer_cta.title">Deploy the Model</h2>
+        <p data-i18n="footer_cta.text">Ready to build a disruptive ecosystem?</p>
+        <a href="index.html#contact" class="cta-button" data-i18n="footer_cta.button">Start Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h4>Giacomo Bertapelle</h4>
+                <p>Tech Automation Consultant.<br>Bologna, Italy.</p>
+                <p class="copyright">&copy; 2026</p>
+            </div>
+            <div class="footer-skills">
+                <div class="skills-wrapper">
+                    <div class="skill-group">
+                        <h4 data-i18n="about.skills.dev">Development</h4>
+                        <ul>
+                            <li>JavaScript / React / Node.js</li>
+                            <li>Python / Automation</li>
+                            <li>Full-Stack Architecture</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h4 data-i18n="about.skills.mfg">Manufacturing</h4>
+                        <ul>
+                            <li>3D Printing / CAD</li>
+                            <li>Digital Fabrication</li>
+                            <li>Process Optimization</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h4 data-i18n="about.skills.biz">Business</h4>
+                        <ul>
+                            <li>E-commerce Operations</li>
+                            <li>Product Strategy</li>
+                            <li>Systems Thinking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-trust">
+                <h4 data-i18n="footer.trust.title">Trust & Privacy</h4>
+                <p data-i18n="footer.trust.data"><strong>Data Security:</strong> We treat your business data with strict confidentiality.</p>
+                <p data-i18n="footer.trust.auto"><strong>Responsible Automation:</strong> Systems to empower teams, not replace them.</p>
+                <p data-i18n="footer.trust.compliance"><strong>Compliance:</strong> GDPR Compliant architecture.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="../js/navigation.js" defer></script>
+    <script src="../js/translation.js" defer></script>
+    <script src="../js/script.js" defer></script>
+    <script src="../js/pipeline.js"></script>
+</body>
+
+</html>

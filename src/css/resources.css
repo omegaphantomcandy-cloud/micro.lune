@@ -1,0 +1,99 @@
+/* Resources Page Styles */
+
+.resources-page {
+    padding-top: 100px;
+}
+
+.resources-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: var(--space-xl) var(--space-md);
+}
+
+.resources-hero-title {
+    margin-bottom: var(--space-md);
+}
+
+.resources-intro {
+    color: var(--color-text-secondary);
+    margin-bottom: 4rem;
+    max-width: 600px;
+}
+
+.resources-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+    /* Default mobile 1 col, adjust checks */
+}
+
+@media (min-width: 768px) {
+    .resources-grid {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        /* Assuming grid logic */
+    }
+}
+
+.resource-card {
+    border: 1px solid var(--color-border);
+    padding: 2rem;
+    background: var(--color-surface);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.resource-card:hover {
+    border-color: var(--color-accent-primary);
+    transform: translateY(-5px);
+}
+
+.resource-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.resource-type {
+    font-family: var(--font-display);
+    color: var(--color-accent-primary);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.resource-format {
+    color: var(--color-text-muted);
+    font-size: 0.8rem;
+    font-family: var(--font-mono);
+}
+
+.resource-title {
+    margin-bottom: 1rem;
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    color: var(--color-text-primary);
+}
+
+.resource-desc {
+    color: var(--color-text-secondary);
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    flex-grow: 1;
+}
+
+.resource-link {
+    color: var(--color-accent-primary);
+    text-decoration: underline;
+    font-size: 0.9rem;
+    font-family: var(--font-mono);
+    text-underline-offset: 4px;
+    align-self: flex-start;
+    transition: color 0.3s ease;
+}
+
+.resource-link:hover {
+    color: #fff;
+}

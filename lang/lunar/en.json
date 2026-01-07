@@ -1,0 +1,72 @@
+{
+    "hero": {
+        "title": "Luna/r",
+        "subtitle": "Premium 3D Printing E-Commerce Platform",
+        "m1": "E-commerce",
+        "m2": "3D Printing",
+        "m3": "NFC Technology",
+        "m4": "2023-2024"
+    },
+    "ecosystem": {
+        "title": "Ecosystem Role",
+        "phase": "Phase 2: MVP & Validation",
+        "desc": "Luna/r serves as the **Validation Engine** in the pipeline. It tests market demand for high-end, NFC-integrated physical goods using lean manufacturing principles.",
+        "link": "See Pipeline →"
+    },
+    "framework": {
+        "title": "Luna/r – Intelligent Circular E-Commerce",
+        "s1": {
+            "title": "1. Problem",
+            "desc": "Physical product e-commerce suffers from heavy inefficiencies: massive unsold stocks, long manual production times, and a disconnect between physical products and digital value. Traditional 'make-to-stock' models generate unsustainable storage costs and 20-30% material waste due to overproduction."
+        },
+        "s2": {
+            "title": "2. Solution",
+            "desc": "Luna/r implements a pure 'make-on-demand' model: every product is manufactured only after the order, using an automated pipeline that goes from checkout to the 3D printer without human intervention. It integrates NFC chips into every object, transforming passive artifacts into programmable digital portals for the end customer. Speed of dropshipping, quality of digital craftsmanship."
+        },
+        "s3": {
+            "title": "3. Key Results",
+            "i1": "<strong>Efficiency:</strong> Average order-to-print time < 4 hours (vs manual days).",
+            "i2": "<strong>Economy:</strong> 0% unsold (zero-inventory model). Gross margin > 200% on physical parts.",
+            "i3": "<strong>Adaptability:</strong> 500+ parameterizable designs uploaded to the catalog.",
+            "i4": "<strong>Users:</strong> 340+ orders fulfilled with an average rating of 4.8/5."
+        },
+        "s4": {
+            "title": "4. Business Model",
+            "desc": "Hybrid E-commerce / Digital Asset Marketplace:",
+            "i1": "Direct sale of physical products with manufacturing markup.",
+            "i2": "Digital file sales (SaaS-like) with 100% margin.",
+            "i3": "Premium customization options (Design-as-a-Service)."
+        },
+        "s5": {
+            "title": "5. Tech & Competitive Advantage",
+            "i1": "<strong>Infrastructure:</strong> Vercel Edge stack for global latency < 100ms.",
+            "i2": "<strong>Proprietary Pipeline:</strong> STL validation engine and automatic slicing integrated into the backend.",
+            "i3": "<strong>IoT Layer:</strong> Proprietary end-to-end NFC encryption (AES-256) allowing customers to safely reprogram chips."
+        },
+        "s6": {
+            "title": "6. Current Status & Roadmap",
+            "status": "<strong>Status:</strong> Validated MVP, revenue-generating, 500+ monthly active users.",
+            "i1": "<strong>Q1 2026:</strong> Catalog expansion to 1000 designs, native mobile app launch.",
+            "i2": "<strong>Q2 2026:</strong> APIs for integration with external farms (Distributed Manufacturing).",
+            "i3": "<strong>Q3 2026:</strong> Licensing the order management system to third parties."
+        },
+        "s7": {
+            "title": "7. My Role",
+            "i1": "Full-Stack Architecture (Next.js + Python backend).",
+            "i2": "Development of dynamic pricing logic based on material volume.",
+            "i3": "Design of the 'Cyberpunk' product line and engineering for 3D printing (DfAM)."
+        },
+        "s8": {
+            "title": "8. Sustainability (ESG)",
+            "i1": "<strong>Zero Waste:</strong> On-demand production completely eliminates waste from unsold stock.",
+            "i2": "<strong>Local Materials:</strong> Exclusive use of European-sourced PLA/PETG to reduce Scope 3 emissions.",
+            "i3": "<strong>Circularity:</strong> Take-back and recycling program facilitated by NFC data."
+        }
+    },
+    "cta": {
+        "title": "Interested in Luna/r?",
+        "desc": "Seeking partners to scale distributed production.",
+        "button": "Request Investor Deck"
+    },
+    "floating_cta": "Get Pricing & Info"
+}

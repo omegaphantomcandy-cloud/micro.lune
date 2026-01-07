@@ -1,0 +1,80 @@
+{
+    "hero": {
+        "label": "E-commerce · 3D Printing",
+        "title": "Cyber Luna",
+        "subtitle": "Premium 3D printing e-shop delivering custom cyberpunk aesthetics with automated fulfillment and proprietary CAD optimization."
+    },
+    "stats": {
+        "s1": "Orders Fulfilled",
+        "s2": "Customer Rating",
+        "s3": "Repeat Purchase Rate"
+    },
+    "overview": {
+        "challenge_title": "The Challenge",
+        "challenge_desc": "Launching a niche cyberpunk aesthetic e-commerce platform with 3D-printed, NFC-enabled products. The market was ultra-niche collectors, and typical e-commerce platforms couldn't handle the complexity of digital asset delivery (3D files) + physical product (prints) + tech integration seamlessly.",
+        "solution_title": "The Solution",
+        "solution_desc": "Built a custom Shopify integration with proprietary backend for NFC encryption and asset management. The stack combines Nuxt + Node.js API + Shopify GraphQL for seamless order processing."
+    },
+    "features": {
+        "f1": {
+            "title": "🔐 NFC Integration",
+            "desc": "QR-to-NFC bridge allowing customers to program their own devices post-purchase"
+        },
+        "f2": {
+            "title": "🎨 Custom Design Service",
+            "desc": "One-on-one CAD consultations for personalized cyberpunk pieces"
+        },
+        "f3": {
+            "title": "⚡ Automated Fulfillment",
+            "desc": "Print queue optimization reducing turnaround time by 40%"
+        },
+        "f4": {
+            "title": "📱 Mobile App",
+            "desc": "React Native app for NFC programming and order tracking"
+        }
+    },
+    "results": {
+        "title": "Results & Impact",
+        "i1": "€45K revenue in first 6 months (validation of niche concept)",
+        "i2": "340+ orders with 35% repeat purchase rate (strong brand loyalty)",
+        "i3": "4.8/5 star rating across 120+ reviews (customer satisfaction)",
+        "i4": "Featured in 2 tech magazines (media coverage)",
+        "i5": "Built community of 800+ cyberpunk enthusiasts"
+    },
+    "tech": {
+        "title": "Technology Stack"
+    },
+    "trust": {
+        "title": "Why Work With Me",
+        "c1": {
+            "title": "Proven Track Record",
+            "desc": "340+ successful projects delivered with 4.8/5 average rating"
+        },
+        "c2": {
+            "title": "Fast Turnaround",
+            "desc": "40% faster production through optimized workflows and automation"
+        },
+        "c3": {
+            "title": "Technical Excellence",
+            "desc": "Full-stack expertise from CAD design to deployment"
+        },
+        "c4": {
+            "title": "Clear Communication",
+            "desc": "Regular updates and transparent project management"
+        }
+    },
+    "cta": {
+        "title": "Interested in Similar Solutions?",
+        "desc": "Whether you need e-commerce integration, 3D printing automation, or custom technical solutions, I'd love to hear about your project. No commitment required—let's start with a conversation.",
+        "b1": "Start a Conversation",
+        "b2": "View More Projects",
+        "note": "💡 Quick response time: I typically reply within 24 hours"
+    },
+    "feedback": {
+        "title": "Have Feedback or Questions?",
+        "desc": "I'm always looking to improve. Even a quick thought helps me refine my approach.",
+        "placeholder": "What caught your attention? What questions do you have? (Optional)",
+        "submit": "Send Quick Feedback",
+        "note": "No email required. Completely voluntary and anonymous."
+    }
+}

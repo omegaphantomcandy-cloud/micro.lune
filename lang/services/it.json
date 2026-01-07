@@ -1,0 +1,32 @@
+{
+    "solutions": {
+        "title": "Servizi",
+        "audit_title": "Audit Automazione Print Farm",
+        "audit_desc": "Valutazione tecnica e roadmap di ottimizzazione.",
+        "audit_labels": {
+            "ideal": "Ideale per: Operatori di Print Farm",
+            "problem": "Problema: Fallimenti frequenti, scarti",
+            "deliverable": "Consegna: Roadmap Tecnica",
+            "timeline": "Timeline: 2-3 Settimane"
+        },
+        "blueprint_title": "Blueprint Operazioni E-commerce",
+        "blueprint_desc": "Integrazione Shopify e design dello stack di automazione.",
+        "blueprint_labels": {
+            "ideal": "Ideale per: Founder E-commerce",
+            "problem": "Problema: Elaborazione ordini manuale",
+            "deliverable": "Roadmap di Integrazione",
+            "timeline": "Timeline: 1 Mese"
+        },
+        "sprint_title": "Sprint di Implementazione 90 Giorni",
+        "sprint_desc": "Implementazione full-stack e formazione del team.",
+        "sprint_labels": {
+            "ideal": "Ideale per: Operatori in Fase di Scaling",
+            "problem": "Problema: Sistemi frammentati",
+            "deliverable": "Implementazione Completa",
+            "timeline": "Timeline: Trimestrale"
+        }
+    },
+    "common": {
+        "book_call": "Prenota una Call"
+    }
+}

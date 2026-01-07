@@ -1,0 +1,27 @@
+{
+    "common": {
+        "book_call": "Prenota Chiamata Diagnostica",
+        "learn_more": "Scopri di più"
+    },
+    "nav": {
+        "base": "Base",
+        "microlune": "Microlune",
+        "framework": "Framework",
+        "resources": "Resources",
+        "about": "About",
+        "contact": "Contatti"
+    },
+    "toc": {
+        "title": "Indice",
+        "ecosystem": "0. Ecosystem",
+        "problem": "1. Problema",
+        "solution": "2. Soluzione",
+        "results": "3. Risultati",
+        "business": "4. Business Model",
+        "tech": "5. Tecnologia",
+        "roadmap": "6. Roadmap",
+        "role": "7. Ruolo",
+        "esg": "8. ESG",
+        "contact": "9. Contatti"
+    }
+}

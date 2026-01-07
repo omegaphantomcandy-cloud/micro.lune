@@ -1,0 +1,36 @@
+{
+    "hero": {
+        "title": "RISORSE",
+        "intro": "Documentazione, framework e whitepaper strategici sviluppati attraverso implementazioni reali."
+    },
+    "items": {
+        "r1": {
+            "type": "WHITEPAPER",
+            "format": "PDF",
+            "title": "FDM Manufacturing Farm - White Paper Tecnico",
+            "desc": "Un'analisi dettagliata dei sistemi di produzione automatizzati per Fused Deposition Modeling.",
+            "link": "Scarica PDF →"
+        },
+        "r2": {
+            "type": "FRAMEWORK",
+            "format": "MD",
+            "title": "The Pipeline: Modello di Innovazione Rapida",
+            "desc": "Bootstrap. Crowdfund. Scale. Il framework scientifico per prodotti digitali.",
+            "link": "Leggi Framework →"
+        },
+        "r3": {
+            "type": "RICERCA",
+            "format": "MD",
+            "title": "Visualizzazione Dream Frequency",
+            "desc": "Esplorazione della visualizzazione multimodale di dati neurotech guidata dall'AI.",
+            "link": "Leggi di più →"
+        },
+        "r4": {
+            "type": "STRATEGIA",
+            "format": "PDF",
+            "title": "Analisi Skills 800 Ore - Qualità della Vita",
+            "desc": "Un'analisi delle competenze professionali focalizzata sull'efficienza operativa e la qualità della vita.",
+            "link": "Scarica PDF →"
+        }
+    }
+}

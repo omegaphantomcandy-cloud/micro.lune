@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giacomo Bertapelle - Tech Automation Consultant | 3D Manufacturing & E-commerce Ops</title>
+    <meta name="description"
+        content="Full-stack developer building innovative products: 3D printing tech, e-commerce platforms, and digital fabrication. Bologna, Italy.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <!-- Local SEO Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Giacomo Bertapelle - Tech Automation Consultant",
+      "image": "https://giacomobertapelle.com/assets/hero-image.jpg",
+      "description": "Consulente di automazione tech e manifattura 3D a Bologna. Ottimizzazione print farm, e-commerce e processi industria 4.0 per PMI.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bologna",
+        "addressRegion": "Emilia-Romagna",
+        "addressCountry": "IT"
+      },
+      "url": "https://giacomobertapelle.com",
+      "priceRange": "€€-€€€",
+      "knowsLanguage": ["it", "en"],
+      "areaServed": {
+        "@type": "GeoShape",
+        "addressCountry": "IT",
+        "additionalProperty": "Serves Bologna, Emilia-Romagna, and Remote"
+      },
+      "serviceArea": {
+        "@type": "City",
+        "name": "Bologna",
+        "areaServed": "Emilia-Romagna"
+      }
+    }
+    </script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="index.html" class="nav-logo-link">
+            <svg class="eye-logo" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="currentColor"
+                    stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2" fill="none" />
+            </svg>
+        </a>
+        <!-- Mobile Menu Toggle removed, handled by navigation.js -->
+        <div class="nav-links">
+            <a href="index.html" class="nav-link" data-i18n="nav.base">Base</a>
+            <a href="#projects" class="nav-link" data-i18n="nav.microlune">Microlune</a>
+            <a href="pipeline.html" class="nav-link" data-i18n="nav.framework">Framework</a>
+            <a href="resources.html" class="nav-link" data-i18n="nav.resources">Resources</a>
+            <a href="about.html" class="nav-link" data-i18n="nav.about">About</a>
+            <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title" data-i18n="hero.title">
+                MICRO LUNE,<br><span>GRANDI ORBITE.</span>
+            </h1>
+            <p class="hero-subtitle hero-text-secondary" data-i18n="hero.subtitle">
+                Tech Automation & 3D Manufacturing. <br>
+                Progetto ecosistemi digitali che scalano autonomamente. <br>
+                <strong>Meno sprechi, più valore.</strong>
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="hero-cta-btn" data-i18n="hero.cta_projects">
+                    I Progetti
+                </a>
+                <a href="pipeline.html" class="hero-cta-btn secondary" data-i18n="hero.cta_framework">
+                    Il Framework
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <span id="projects"></span>
+    <section class="projects">
+        <div class="section-container">
+            <h2 class="section-title" data-i18n="projects.title">Micro Lune (Progetti)</h2>
+
+            <div class="project-grid">
+                <!-- Project 1: Luna/r -->
+                <a href="lunar.html" class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <span class="project-icon">🌙</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title" data-i18n="projects.p1.title">Luna/r</h3>
+                        <p class="project-category" data-i18n="projects.p1.category">Stampa 3D · E‑Commerce · Design Modulare</p>
+                        <p class="project-description" data-i18n="projects.p1.desc">
+                            Luna/r è la mia micro luna dedicata a prodotti fisici intelligenti.
+                            Un e‑commerce di stampa 3D dove file, materiali e logistica sono pensati per durare: design modulare, componenti stampabili on demand, NFC per estendere la vita del prodotto nel digitale.
+                            Pipeline CAD proprietaria, fulfillment automatizzato e zero preparazione manuale dei file: meno scarti, meno errori, più valore per ogni grammo di materiale.
+                        </p>
+                        <div class="project-tags">
+                            <span>Shopify</span>
+                            <span>3D Design</span>
+                            <span>Automation</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 2: Sistemi Automazione Farm -->
+                <a href="fdm-farm.html" class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <span class="project-icon">🖨️</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title" data-i18n="projects.p2.title">Sistemi Automazione Farm</h3>
+                        <p class="project-category" data-i18n="projects.p2.category">Farm Automation · Workflow · Riduzione Sprechi</p>
+                        <p class="project-description" data-i18n="projects.p2.desc">
+                            Qui lavoro sul cuore produttivo: le farm di stampa e i piccoli impianti.
+                            Orchestrazione delle macchine, gestione dei materiali e workflow pensati per tenere accese
+                            le stampanti, non le persone fino a tardi.
+                            L’obiettivo non è solo il +40% di velocità di produzione: è una produzione che consuma meno tempo umano, meno sprechi in trial‑and‑error e più intelligenza di processo ad ogni ordine.
+                        </p>
+                        <div class="project-tags">
+                            <span>Farm Automation</span>
+                            <span>Workflow</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 3: FabLab -->
+                <a href="fablab.html" class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <span class="project-icon">🔧</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title" data-i18n="projects.p3.title">Progetti FabLab</h3>
+                        <p class="project-category" data-i18n="projects.p3.category">Open Lab · Industria 4.0 · Riuso di Soluzioni</p>
+                        <p class="project-description" data-i18n="projects.p3.desc">
+                            Il FabLab è la micro luna dove si sperimenta il futuro a basso impatto.
+                            Robotica, IoT e fabbricazione digitale usati per costruire prototipi che possono diventare
+                            sistemi stabili, non solo demo da fiera.
+                            Ogni test sul campo genera linee guida, template e pratiche replicabili nelle aziende che vogliono fare Industria 4.0 senza buttare soldi in progetti vetrina.
+                        </p>
+                        <div class="project-tags">
+                            <span>Arduino</span>
+                            <span>IoT</span>
+                            <span>Robotics</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 4: Dream Frequency -->
+                <a href="dream-frequency.html" class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <span class="project-icon">🧠</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title" data-i18n="projects.p4.title">Dream Frequency / Neuro‑Tech</h3>
+                        <p class="project-category" data-i18n="projects.p4.category">Neurotech · Ethical Data · Digital Wellness</p>
+                        <p class="project-description" data-i18n="projects.p4.desc">
+                            Questa è la micro luna più sperimentale: sogni, dati cerebrali, interfacce multimodali.
+                            Un progetto di ricerca che esplora come visualizzare le frequenze cerebrali durante il
+                            sonno, trasformandole in esperienze visive e sonore, con grande attenzione a etica, privacy e proprietà dei dati neurali.
+                            Anche qui la logica è circolare: i dati non sono estratti e venduti, ma restituiti alle persone come strumenti di introspezione, creatività e consapevolezza.
+                        </p>
+                        <div class="project-tags">
+                            <span>Neurotech</span>
+                            <span>AI Visualization</span>
+                            <span>Data Ethics</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Framework Micro Lune -->
+    <section class="framework" id="framework">
+        <div class="section-container">
+            <h2 class="section-title centered-title" data-i18n="framework.title">Il Framework delle Micro Lune</h2>
+            <div class="framework-vision">
+                <span class="vision-lead" data-i18n="framework.vision_lead">Invece di monoliti, progetto <strong>costellazioni di micro-sistemi interconnessi</strong>.</span>
+                <span class="vision-detail" data-i18n="framework.vision_detail">Ogni Micro Luna è un laboratorio funzionale: testa l'innovazione, valida l'impatto e standardizza le soluzioni vincenti.</span>
+                <div class="vision-divider"></div>
+                <span class="vision-method" data-i18n="framework.vision_method">Un metodo circolare che abbatte i rischi e trasforma ogni progetto in un asset riutilizzabile e scalabile.</span>
+            </div>
+            <div class="icp-grid">
+                <div class="icp-card">
+                    <h3 data-i18n="framework.c1.title">Riduzione sprechi</h3>
+                    <p data-i18n="framework.c1.desc">Materiali, tempo uomo, energia mentale.</p>
+                </div>
+                <div class="icp-card">
+                    <h3 data-i18n="framework.c2.title">Riutilizzo</h3>
+                    <p data-i18n="framework.c2.desc">Codici, pipeline, componenti di prodotto e di processo.</p>
+                </div>
+                <div class="icp-card">
+                    <h3 data-i18n="framework.c3.title">Rigenerazione</h3>
+                    <p data-i18n="framework.c3.desc">Dati, insight, comunità e competenze che rientrano nel sistema invece di dissiparsi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    </section>
+
+    <!-- Methodology / Come Lavoro -->
+    <section class="methodology" id="methodology">
+        <div class="section-container">
+            <h2 class="section-title centered-title" data-i18n="methodology.title">Project Management a Orbita Lunga</h2>
+            <p class="methodology-intro" data-i18n="methodology.intro">
+                <strong>Non lancio progetti, disegno orbite.</strong><br>
+                Ogni sistema è ingegnerizzato per l'autosufficienza economica e operativa, eliminando la dipendenza dagli interventi d'emergenza.
+                Pianifico, disegno e misuro con un unico scopo: garantire <strong>impatto concreto e margini scalabili.</strong>
+            </p>
+            <div class="steps">
+                <div class="step">
+                    <h3 data-i18n="methodology.s1.title">Scope chiaro</h3>
+                    <p data-i18n="methodology.s1.desc">Ma spazio per iterare.</p>
+                </div>
+                <div class="step">
+                    <h3 data-i18n="methodology.s2.title">Roadmap integrata</h3>
+                    <p data-i18n="methodology.s2.desc">Che integra hardware, software e persone.</p>
+                </div>
+                <div class="step">
+                    <h3 data-i18n="methodology.s3.title">KPI Reali</h3>
+                    <p data-i18n="methodology.s3.desc">Misurano efficienza, impatto e sprechi evitati.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-container">
+            <div class="about-content">
+                <h2 class="section-title" data-i18n="about.title">About</h2>
+                <div class="about-text">
+                    <p class="lead" data-i18n="about.lead">
+                        Bridging the gap between <strong>Hardware Engineering</strong> and <strong>Digital
+                            Strategy</strong>.
+                    </p>
+                    <p data-i18n="about.p1">
+                        I operate at the intersection of <strong>Industry 4.0</strong> and custom software development.
+                        Unlike traditional agencies, I offer a vertical integration of skills—from CAD optimization
+                        (DfAM) to full-stack e-commerce automation.
+                    </p>
+                    <p data-i18n="about.p2">
+                        Based in Bologna, a hub for high-tech mechanics. My approach combines the precision of
+                        <strong>manufacturing consultancy</strong> (SolidWorld approach) with the agility of modern
+                        <strong>digital product labs</strong> (MadeInAdd model).
+                    </p>
+                </div>
+            </div>
+
+            <!-- Testimonials -->
+            <div class="testimonials">
+                <h3 style="color: #fff; margin-bottom: 2rem;" data-i18n="about.testimonials.title">What Clients Say</h3>
+                <div class="testimonial-grid"
+                    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                    <div
+                        style="background: rgba(5, 5, 5, 0.4); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--color-border);">
+                        <p style="color: #ccc; font-style: italic; margin-bottom: 1rem;" data-i18n="about.testimonials.t1.text">"Giacomo's technical depth
+                            saved us
+                            €5k in wasted materials alone. He understands both the code and the machine."</p>
+                        <span style="color: #00ff88; font-size: 0.8rem;" data-i18n="about.testimonials.t1.author">— Carlo R., Founder, Print-on-Demand
+                            Startup</span>
+                    </div>
+                    <div
+                        style="background: rgba(5, 5, 5, 0.4); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--color-border);">
+                        <p style="color: #ccc; font-style: italic; margin-bottom: 1rem;" data-i18n="about.testimonials.t2.text">"Structured but flexible. What
+                            we
+                            thought would take 3 months, he optimized in 6 weeks."</p>
+                        <span class="testimonial-author" data-i18n="about.testimonials.t2.author">— Alessandro B., Ops Manager</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-skills">
+            <!-- Credentials Section -->
+            <div class="credentials-grid">
+                <div>
+                    <h4 class="credential-stat" data-i18n="about.stat1">50+ Projects</h4>
+                    <span class="credential-label">Delivered</span>
+                </div>
+                <div>
+                    <h4 class="credential-stat" data-i18n="about.stat2">40% Speed</h4>
+                    <span class="credential-label">Increase</span>
+                </div>
+                <div>
+                    <h4 class="credential-stat" data-i18n="about.stat3">€100k+</h4>
+                    <span class="credential-label">Impact</span>
+                </div>
+            </div>
+            <!-- Credentials Section removed, now in footer -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <h2 class="section-title" data-i18n="contact.title">Get in Touch</h2>
+            <div class="contact-content">
+                <p class="contact-text" data-i18n="contact.text">
+                    Open for consulting, collaboration, and interesting projects.
+                </p>
+
+
+
+                <div class="contact-links">
+                    <a href="mailto:contact@giacomobertapelle.com" class="contact-link">Email</a>
+                    <a href="https://linkedin.com/in/giacomobertapelle" target="_blank"
+                        class="contact-link">LinkedIn</a>
+                    <a href="https://github.com/giacomobertapelle" target="_blank" class="contact-link">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h4>Giacomo Bertapelle</h4>
+                <p>Tech Automation Consultant.<br>Bologna, Italy.</p>
+                <p class="copyright">&copy; 2026</p>
+            </div>
+            <div class="footer-skills">
+                <div class="skills-wrapper">
+                    <div class="skill-group">
+                        <h4 data-i18n="about.skills.dev">Development</h4>
+                        <ul>
+                            <li>JavaScript / React / Node.js</li>
+                            <li>Python / Automation</li>
+                            <li>Full-Stack Architecture</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h4 data-i18n="about.skills.mfg">Manufacturing</h4>
+                        <ul>
+                            <li>3D Printing / CAD</li>
+                            <li>Digital Fabrication</li>
+                            <li>Process Optimization</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h4 data-i18n="about.skills.biz">Business</h4>
+                        <ul>
+                            <li>E-commerce Operations</li>
+                            <li>Product Strategy</li>
+                            <li>Systems Thinking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-trust">
+                <h4 data-i18n="footer.trust.title">Trust & Privacy</h4>
+                <p data-i18n="footer.trust.data"><strong>Data Security:</strong> We treat your business data with strict confidentiality.</p>
+                <p data-i18n="footer.trust.auto"><strong>Responsible Automation:</strong> Systems to empower teams, not replace them.</p>
+                <p data-i18n="footer.trust.compliance"><strong>Compliance:</strong> GDPR Compliant architecture.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+    <script src="../js/navigation.js" defer></script>
+    <script src="../js/translation.js" defer></script>
+    <script src="../js/script.js" defer></script>
+    <script src="../js/home-3d.js" defer></script>
+    <script src="../js/background-3d.js" defer></script>
+</body>
+
+</html>

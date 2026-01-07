@@ -1,0 +1,80 @@
+{
+    "hero": {
+        "label": "E-commerce · Stampa 3D",
+        "title": "Cyber Luna",
+        "subtitle": "E-shop premium di stampa 3D che offre estetica cyberpunk personalizzata con fulfillment automatizzato e ottimizzazione CAD proprietaria."
+    },
+    "stats": {
+        "s1": "Ordini Evasi",
+        "s2": "Valutazione Clienti",
+        "s3": "Tasso di Riacquisto"
+    },
+    "overview": {
+        "challenge_title": "La Sfida",
+        "challenge_desc": "Lanciare una piattaforma e-commerce di nicchia con estetica cyberpunk e prodotti stampati in 3D integrati con NFC. Il mercato era composto da collezionisti ultra-niche e le tipiche piattaforme e-commerce non riuscivano a gestire la complessità della consegna di asset digitali (file 3D) + prodotto fisico (stampe) + integrazione tecnologica in modo fluido.",
+        "solution_title": "La Soluzione",
+        "solution_desc": "Costruita un'integrazione Shopify personalizzata con backend proprietario per la crittografia NFC e la gestione degli asset. Lo stack combina Nuxt + API Node.js + Shopify GraphQL per un'elaborazione degli ordini senza interruzioni."
+    },
+    "features": {
+        "f1": {
+            "title": "🔐 Integrazione NFC",
+            "desc": "Ponte QR-to-NFC che consente ai clienti di programmare i propri dispositivi dopo l'acquisto"
+        },
+        "f2": {
+            "title": "🎨 Servizio di Design Personalizzato",
+            "desc": "Consulenze CAD individuali per pezzi cyberpunk personalizzati"
+        },
+        "f3": {
+            "title": "⚡ Fulfillment Automatizzato",
+            "desc": "Ottimizzazione della coda di stampa che riduce i tempi di consegna del 40%"
+        },
+        "f4": {
+            "title": "📱 App Mobile",
+            "desc": "App React Native per la programmazione NFC e il monitoraggio degli ordini"
+        }
+    },
+    "results": {
+        "title": "Risultati e Impatto",
+        "i1": "€45K di fatturato nei primi 6 mesi (validazione del concetto di nicchia)",
+        "i2": "340+ ordini con un tasso di riacquisto del 35% (forte fedeltà al brand)",
+        "i3": "Valutazione 4.8/5 stelle su oltre 120 recensioni (soddisfazione del cliente)",
+        "i4": "Presentato in 2 riviste tech (copertura mediatica)",
+        "i5": "Creata una community di oltre 800 appassionati di cyberpunk"
+    },
+    "tech": {
+        "title": "Stack Tecnologico"
+    },
+    "trust": {
+        "title": "Perché Lavorare Con Me",
+        "c1": {
+            "title": "Esperienza Comprovata",
+            "desc": "Oltre 340 progetti di successo consegnati con una valutazione media di 4.8/5"
+        },
+        "c2": {
+            "title": "Tempi di Consegna Rapidi",
+            "desc": "Produzione più veloce del 40% grazie a workflow ottimizzati e automazione"
+        },
+        "c3": {
+            "title": "Eccellenza Tecnica",
+            "desc": "Esperienza full-stack dal design CAD al deployment"
+        },
+        "c4": {
+            "title": "Comunicazione Chiara",
+            "desc": "Aggiornamenti regolari e gestione trasparente dei progetti"
+        }
+    },
+    "cta": {
+        "title": "Interessato a Soluzioni Simili?",
+        "desc": "Sia che tu abbia bisogno di integrazione e-commerce, automazione della stampa 3D o soluzioni tecniche personalizzate, mi piacerebbe conoscere il tuo progetto. Nessun impegno richiesto: iniziamo con una conversazione.",
+        "b1": "Inizia una Conversazione",
+        "b2": "Visualizza Altri Progetti",
+        "note": "💡 Tempo di risposta rapido: solitamente rispondo entro 24 ore"
+    },
+    "feedback": {
+        "title": "Hai Feedback o Domande?",
+        "desc": "Cerco sempre di migliorare. Anche un breve pensiero mi aiuta a perfezionare il mio approccio.",
+        "placeholder": "Cosa ha attirato la tua attenzione? Quali domande hai? (Opzionale)",
+        "submit": "Invia Feedback Rapido",
+        "note": "Nessuna email richiesta. Completamente volontario e anonimo."
+    }
+}

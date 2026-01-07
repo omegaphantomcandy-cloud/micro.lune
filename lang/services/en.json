@@ -1,0 +1,32 @@
+{
+    "solutions": {
+        "title": "Services",
+        "audit_title": "Print Farm Automation Audit",
+        "audit_desc": "Technical assessment & optimization roadmap.",
+        "audit_labels": {
+            "ideal": "Ideal for: Print Farm Operators",
+            "problem": "Problem: Frequent failures, waste",
+            "deliverable": "Deliverable: Technical Roadmap",
+            "timeline": "Timeline: 2-3 Weeks"
+        },
+        "blueprint_title": "E-commerce Ops Blueprint",
+        "blueprint_desc": "Shopify integration & automation stack design.",
+        "blueprint_labels": {
+            "ideal": "Ideal for: E-commerce Founders",
+            "problem": "Problem: Manual order processing",
+            "deliverable": "Integration Roadmap",
+            "timeline": "Timeline: 1 Month"
+        },
+        "sprint_title": "90-Day Implementation Sprint",
+        "sprint_desc": "Full-stack implementation & team training.",
+        "sprint_labels": {
+            "ideal": "Ideal for: Scaling Operators",
+            "problem": "Problem: Fragmented systems",
+            "deliverable": "Full Implementation",
+            "timeline": "Timeline: Quarterly"
+        }
+    },
+    "common": {
+        "book_call": "Book a Call"
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "hero": {
+        "title": "Dream Frequency",
+        "subtitle": "Visualizing the Subconscious via AI & EEG",
+        "m1": "Neurotech",
+        "m2": "Generative AI",
+        "m3": "Research",
+        "m4": "2025"
+    },
+    "ecosystem": {
+        "title": "Ecosystem Role",
+        "phase": "Phase X: Future Horizons",
+        "desc": "Dream Frequency is the **Experimental Micro Moon**. It explores new frontiers of human-machine interface, testing emerging technologies (Brain-Computer Interfaces) that could one day integrate into other ecosystems.",
+        "link": "See Pipeline →"
+    },
+    "framework": {
+        "title": "Dream Frequency – Dream Ecology",
+        "s1": {
+            "title": "1. Problem",
+            "desc": "We spend one-third of our lives sleeping, yet this vast amount of cognitive and emotional data is lost. There is no feedback loop that allows us to 'see' the quality of our rest beyond cold charts, losing the opportunity for creative introspection and mental well-being."
+        },
+        "s2": {
+            "title": "2. Solution",
+            "desc": "A multimodal system combining a non-invasive EEG headband (like Muse/OpenBCI) with Generative AI pipelines. The system translates brain frequencies (Alpha, Theta, Delta) into dynamic prompts to generate visual and sound dreamscapes in real-time."
+        },
+        "s3": {
+            "title": "3. Expected Results (Simulated)",
+            "i1": "<strong>Tech Demo:</strong> Functional pipeline mapping Theta waves to Stable Diffusion image generation.",
+            "i2": "<strong>Accuracy:</strong> > 80% correlation between detected emotional state and visual output (subjective validation).",
+            "i3": "<strong>Privacy:</strong> Local processing (Edge AI) to ensure 'dreams' never leave the user's device."
+        },
+        "s4": {
+            "title": "4. Business Model",
+            "desc": "Hardware + Services Ecosystem:",
+            "i1": "<strong>Hardware:</strong> Consumer-grade EEG device sales (premium design).",
+            "i2": "<strong>App Subscription:</strong> Access to the 'Dream Gallery' and advanced sleep analysis.",
+            "i3": "<strong>Data Licensing:</strong> (Optional/Anonymized) Dataset for neuroscientific research."
+        },
+        "s5": {
+            "title": "5. Tech & Stack",
+            "i1": "<strong>Hardware:</strong> Dry EEG sensors, Bluetooth LE.",
+            "i2": "<strong>AI Pipeline:</strong> Signal Processing (MNE-Python) -> Feature Extraction -> Prompt Engineering -> GenAI (Stable Diffusion/AudioCraft).",
+            "i3": "<strong>Frontend:</strong> Real-time reactive WebGL visualizer."
+        },
+        "s6": {
+            "title": "6. Status & Roadmap",
+            "status": "<strong>Status:</strong> Conceptual Proof of Concept and software architecture validation.",
+            "i1": "<strong>Q3 2026:</strong> Functional Prototype V1 (Hardware + Software MVP).",
+            "i2": "<strong>Q1 2027:</strong> Beta testing with a selected group of 'lucid dreamers'."
+        },
+        "s7": {
+            "title": "7. My Role",
+            "i1": "Product vision and systemic integration (Neuroscience + AI).",
+            "i2": "Data pipeline architecture development.",
+            "i3": "Ethics and privacy management (Neuro-rights design)."
+        },
+        "s8": {
+            "title": "8. Sustainability (ESG)",
+            "i1": "<strong>Mental Health:</strong> Non-pharmacological tool for awareness and stress management.",
+            "i2": "<strong>Data Ethics:</strong> 'Privacy-by-default' design returning brain data ownership to the user."
+        }
+    },
+    "cta": {
+        "title": "Dream With Us",
+        "desc": "Interested in research on BCI and Generative AI?",
+        "button": "Collaborate on Research"
+    },
+    "floating_cta": "Join Beta"
+}

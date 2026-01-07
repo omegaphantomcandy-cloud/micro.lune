@@ -1,0 +1,109 @@
+{
+    "hero": {
+        "title1": "LA",
+        "title2": "PIPELINE",
+        "subtitle": "Dal Prototipo al Mercato.",
+        "description": "L'unico framework che combina Crowdfunding + Fondi Europei + Validazione della Community. Progettato per i maker che vogliono raccogliere capitale senza la diluizione tipica dei VC."
+    },
+    "audience": {
+        "title": "A chi è rivolto",
+        "c1": {
+            "title": "Maker & Piccole Imprese",
+            "i1": "Hai un prodotto fisico o ibrido.",
+            "i2": "Ti stai autofinanziando con un budget limitato.",
+            "i3": "Il crowdfunding ti sembra rischioso e confuso."
+        },
+        "c2": {
+            "title": "Tech Founder",
+            "i1": "Hai bisogno di €50k–€500k per validare e scalare.",
+            "i2": "Vuoi evitare la diluizione dell'equity nelle fasi iniziali.",
+            "i3": "Stai considerando crowdfunding + bandi."
+        },
+        "c3": {
+            "title": "Team di Innovazione",
+            "i1": "Vuoi workshop pratici per il tuo team.",
+            "i2": "Hai bisogno di un metodo ripetibile per l'innovazione.",
+            "i3": "Ti interessano esempi del mondo reale."
+        }
+    },
+    "flow": {
+        "p1": {
+            "title": "Validazione della Community",
+            "t1": "Fiducia",
+            "t2": "Domanda",
+            "goal": "Obiettivo: Coinvolgere 500+ potenziali clienti in 6–8 settimane.",
+            "how": "Come? Community Discord, programmi pilota e conversazioni reali. Costruisci la domanda prima dell'offerta."
+        },
+        "p2": {
+            "title": "Sviluppo MVP",
+            "t1": "Tech",
+            "t2": "Lean",
+            "goal": "Costruisci. Misura. Impara.",
+            "how": "Priorità alle feature usando Jobs-to-be-Done. Prototipazione rapida con stampa 3D e strumenti low-code."
+        },
+        "p3": {
+            "title": "Prep Crowdfunding",
+            "t1": "Esclusività",
+            "t2": "Validazione",
+            "goal": "Regola dell'Audience Pre-Campagna.",
+            "how": "Non lanciare nel vuoto. Assicura il 30% del potenziale di conversione tramite mailing list e community prima del Giorno 1."
+        },
+        "p4": {
+            "title": "Campagna & Bandi",
+            "t1": "Fiducia",
+            "t2": "Bandi",
+            "goal": "Strategia di Capitale Ibrida.",
+            "how": "Crowdfunding per il cash flow iniziale. Bandi europei (strumenti PMI, fondi regionali) per scalare."
+        },
+        "p5": {
+            "title": "Fulfillment & Scaling",
+            "t1": "Tech",
+            "t2": "SaaS",
+            "goal": "Mantieni le Promesse.",
+            "how": "Sistemi di inventario, partner logistici e automazione per mantenere margini e velocità."
+        },
+        "p6": {
+            "title": "Entrate Ricorrenti",
+            "t1": "Esclusività",
+            "t2": "Libertà",
+            "goal": "Business a Lungo Termine.",
+            "how": "Abbonamenti, membership ed ecosistemi. Trasforma i sostenitori occasionali in clienti per tutta la vita."
+        }
+    },
+    "services": {
+        "title": "Utilizza la Pipeline",
+        "subtitle": "Scegli il livello di supporto adatto alla tua fase e al tuo budget.",
+        "s1": {
+            "title": "Workshop di Gruppo",
+            "price": "€500–€1,500",
+            "unit": "/ team",
+            "i1": "Intensivo di 3 ore o 1 giorno",
+            "i2": "\"Dall'Idea al Crowdfunding\"",
+            "i3": "Template & Roadmap",
+            "cta": "Richiedi Info →"
+        },
+        "s2": {
+            "title": "Consulenza 1:1",
+            "price": "€150–€300",
+            "unit": "/ ora",
+            "i1": "Design della Strategia",
+            "i2": "Revisione della Campagna",
+            "i3": "Revisione Applicazione Bandi",
+            "cta": "Prenota una Call →"
+        },
+        "s3": {
+            "title": "Programma Cohort",
+            "price": "€3,000",
+            "unit": "/ founder",
+            "i1": "Programma Strutturato di 12 Settimane",
+            "i2": "Piccolo Gruppo (5-8 founder)",
+            "i3": "Community + Guida",
+            "cta": "Unisciti alla Waitlist →"
+        }
+    },
+    "footer_cta": {
+        "title": "Implementa il Modello",
+        "text": "Pronto a costruire un ecosistema dirompente?",
+        "button": "Inizia Ora"
+    }
+}

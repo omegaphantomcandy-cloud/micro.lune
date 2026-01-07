@@ -1,0 +1,27 @@
+{
+    "common": {
+        "book_call": "Book Diagnostic Call",
+        "learn_more": "Learn More"
+    },
+    "nav": {
+        "base": "Base",
+        "microlune": "Microlune",
+        "framework": "Framework",
+        "resources": "Resources",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "toc": {
+        "title": "Contents",
+        "ecosystem": "0. Ecosystem",
+        "problem": "1. Problem",
+        "solution": "2. Solution",
+        "results": "3. Results",
+        "business": "4. Business Model",
+        "tech": "5. Technology",
+        "roadmap": "6. Roadmap",
+        "role": "7. Role",
+        "esg": "8. ESG",
+        "contact": "9. Contact"
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "hero": {
+        "title": "MICRO LUNE,<br><span>GRANDI ORBITE.</span>",
+        "subtitle": "Tech Automation & 3D Manufacturing. <br>Progetto ecosistemi digitali che scalano autonomamente. <br><strong>Meno sprechi, più valore.</strong>",
+        "cta_projects": "I Progetti",
+        "cta_framework": "Il Framework"
+    },
+    "projects": {
+        "title": "Micro Lune (Progetti)",
+        "p1": {
+            "title": "Luna/r",
+            "category": "Stampa 3D · E‑Commerce · Design Modulare",
+            "desc": "Luna/r è la mia micro luna dedicata a prodotti fisici intelligenti. Un e‑commerce di stampa 3D dove file, materiali e logistica sono pensati per durare: design modulare, componenti stampabili on demand, NFC per estendere la vita del prodotto nel digitale. Pipeline CAD proprietaria, fulfillment automatizzato e zero preparazione manuale dei file: meno scarti, meno errori, più valore per ogni grammo di materiale."
+        },
+        "p2": {
+            "title": "Sistemi Automazione Farm",
+            "category": "Farm Automation · Workflow · Riduzione Sprechi",
+            "desc": "Qui lavoro sul cuore produttivo: le farm di stampa e i piccoli impianti. Orchestrazione delle macchine, gestione dei materiali e workflow pensati per tenere accese le stampanti, non le persone fino a tardi. L’obiettivo non è solo il +40% di velocità di produzione: è una produzione che consuma meno tempo umano, meno sprechi in trial‑and‑error e più intelligenza di processo ad ogni ordine."
+        },
+        "p3": {
+            "title": "Progetti FabLab",
+            "category": "Open Lab · Industria 4.0 · Riuso di Soluzioni",
+            "desc": "Il FabLab è la micro luna dove si sperimenta il futuro a basso impatto. Robotica, IoT e fabbricazione digitale usati per costruire prototipi che possono diventare sistemi stabili, non solo demo da fiera. Ogni test sul campo genera linee guida, template e pratiche replicabili nelle aziende che vogliono fare Industria 4.0 senza buttare soldi in progetti vetrina."
+        },
+        "p4": {
+            "title": "Dream Frequency / Neuro‑Tech",
+            "category": "Neurotech · Ethical Data · Digital Wellness",
+            "desc": "Questa è la micro luna più sperimentale: sogni, dati cerebrali, interfacce multimodali. Un progetto di ricerca che esplora come visualizzare le frequenze cerebrali durante il sonno, trasformandole in esperienze visive e sonore, con grande attenzione a etica, privacy e proprietà dei dati neurali. Anche qui la logica è circolare: i dati non sono estratti e venduti, ma restituiti alle persone come strumenti di introspezione, creatività e consapevolezza."
+        }
+    },
+    "framework": {
+        "title": "Il Framework delle Micro Lune",
+        "vision_lead": "Invece di monoliti, progetto <strong>costellazioni di micro-sistemi interconnessi</strong>.",
+        "vision_detail": "Ogni Micro Luna è un laboratorio funzionale: testa l'innovazione, valida l'impatto e standardizza le soluzioni vincenti.",
+        "vision_method": "Un metodo circolare che abbatte i rischi e trasforma ogni progetto in un asset riutilizzabile e scalabile.",
+        "c1": {
+            "title": "Riduzione sprechi",
+            "desc": "Materiali, tempo uomo, energia mentale."
+        },
+        "c2": {
+            "title": "Riutilizzo",
+            "desc": "Codici, pipeline, componenti di prodotto e di processo."
+        },
+        "c3": {
+            "title": "Rigenerazione",
+            "desc": "Dati, insight, comunità e competenze che rientrano nel sistema invece di dissiparsi."
+        }
+    },
+    "methodology": {
+        "title": "Project Management a Orbita Lunga",
+        "intro": "<strong>Non lancio progetti, disegno orbite.</strong><br>Ogni sistema è ingegnerizzato per l'autosufficienza economica e operativa, eliminando la dipendenza dagli interventi d'emergenza. Pianifico, disegno e misuro con un unico scopo: garantire <strong>impatto concreto e margini scalabili.</strong>",
+        "s1": {
+            "title": "Scope chiaro",
+            "desc": "Ma spazio per iterare."
+        },
+        "s2": {
+            "title": "Roadmap integrata",
+            "desc": "Che integra hardware, software e persone."
+        },
+        "s3": {
+            "title": "KPI Reali",
+            "desc": "Misurano efficienza, impatto e sprechi evitati."
+        }
+    },
+    "about": {
+        "title": "About",
+        "lead": "Uniamo <strong>Hardware Engineering</strong> e <strong>Digital Strategy</strong>.",
+        "p1": "Opero all'intersezione tra l'<strong>Industria 4.0</strong> e lo sviluppo software custom. A differenza delle agenzie tradizionali, offro un'integrazione verticale di competenze: dalla progettazione CAD ottimizzata (DfAM) all'automazione e-commerce full-stack.",
+        "p2": "Con sede a Bologna, polo della meccanica hi-tech. Il mio approccio unisce la precisione della <strong>consulenza manifatturiera</strong> (modello SolidWorld) all'agilità dei moderni <strong>digital product lab</strong> (modello MadeInAdd).",
+        "testimonials": {
+            "title": "Cosa Dicono i Clienti",
+            "t1": {
+                "text": "\"La profondità tecnica di Giacomo ci ha fatto risparmiare 5.000€ solo in scarti di materiale. Capisce sia il codice che la macchina.\"",
+                "author": "— Carlo R., Founder, Startup Print-on-Demand"
+            },
+            "t2": {
+                "text": "\"Strutturato ma flessibile. Quello che pensavamo avrebbe richiesto 3 mesi, lui l'ha ottimizzato in 6 settimane.\"",
+                "author": "— Alessandro B., Ops Manager"
+            }
+        },
+        "stat1": "50+ Progetti",
+        "stat2": "40% Velocità",
+        "stat3": "€100k+",
+        "skills": {
+            "dev": "Sviluppo",
+            "mfg": "Manifattura",
+            "biz": "Business"
+        }
+    },
+    "contact": {
+        "title": "Contatti",
+        "text": "Disponibile per consulenze, collaborazioni e progetti interessanti."
+    },
+    "footer": {
+        "trust": {
+            "title": "Fiducia & Privacy",
+            "data": "<strong>Sicurezza Dati:</strong> Massima riservatezza per i dati aziendali.",
+            "auto": "<strong>Automazione Etica:</strong> Sistemi per potenziare i team, non sostituirli.",
+            "compliance": "<strong>Conformità:</strong> Architettura conforme al GDPR."
+        }
+    }
+}

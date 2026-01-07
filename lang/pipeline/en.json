@@ -1,0 +1,109 @@
+{
+    "hero": {
+        "title1": "THE",
+        "title2": "PIPELINE",
+        "subtitle": "From Prototype to Market.",
+        "description": "The only framework that combines Crowdfunding + European Grants + Community Validation. Designed for makers who want to raise capital without VC dilution."
+    },
+    "audience": {
+        "title": "Who This Is For",
+        "c1": {
+            "title": "Makers & Small Business",
+            "i1": "You have a physical or hybrid product.",
+            "i2": "You’re bootstrapping with limited budget.",
+            "i3": "Crowdfunding feels risky and confusing."
+        },
+        "c2": {
+            "title": "Tech Founders",
+            "i1": "You need €50k–€500k to validate and scale.",
+            "i2": "You want to avoid early equity dilution.",
+            "i3": "You’re considering crowdfunding + grants."
+        },
+        "c3": {
+            "title": "Innovation Teams",
+            "i1": "You want hands-on workshops for your team.",
+            "i2": "You need a repeatable method for innovation.",
+            "i3": "You care about real-world examples."
+        }
+    },
+    "flow": {
+        "p1": {
+            "title": "Community Validation",
+            "t1": "Trust",
+            "t2": "Demand",
+            "goal": "Goal: Engage 500+ potential customers in 6–8 weeks.",
+            "how": "How? Discord communities, pilot programs, and real conversations. Build demand before supply."
+        },
+        "p2": {
+            "title": "MVP Development",
+            "t1": "Tech",
+            "t2": "Lean",
+            "goal": "Build. Measure. Learn.",
+            "how": "Prioritize features using Jobs-to-be-Done. Rapid prototyping with 3D printing and low-code tools."
+        },
+        "p3": {
+            "title": "Crowdfunding Prep",
+            "t1": "Exclusiveness",
+            "t2": "Validation",
+            "goal": "Pre-Campaign Audience Rule.",
+            "how": "Don't launch to crickets. Secure 30% conversion potential via email lists and communities before Day 1."
+        },
+        "p4": {
+            "title": "Campaign & Grants",
+            "t1": "Trust",
+            "t2": "Grants",
+            "goal": "Hybrid Capital Strategy.",
+            "how": "Crowdfunding for early cash flow. European grants (SME instruments, regional funds) for scaling."
+        },
+        "p5": {
+            "title": "Fulfillment & Scaling",
+            "t1": "Tech",
+            "t2": "SaaS",
+            "goal": "Deliver Promises.",
+            "how": "Inventory systems, logistics partners, and automation to maintain margins and speed."
+        },
+        "p6": {
+            "title": "Recurring Revenue",
+            "t1": "Exclusiveness",
+            "t2": "Freedom",
+            "goal": "Long-term Business.",
+            "how": "Subscriptions, memberships, and ecosystems. Turn one-off backers into lifetime customers."
+        }
+    },
+    "services": {
+        "title": "Engage With The Pipeline",
+        "subtitle": "Choose the level of support that fits your stage and budget.",
+        "s1": {
+            "title": "Group Workshops",
+            "price": "€500–€1,500",
+            "unit": "/ team",
+            "i1": "3-hour or 1-day intensive",
+            "i2": "\"From Idea to Crowdfunding\"",
+            "i3": "Templates & Roadmaps",
+            "cta": "Request Info →"
+        },
+        "s2": {
+            "title": "1:1 Consulting",
+            "price": "€150–€300",
+            "unit": "/ hour",
+            "i1": "Strategy Design",
+            "i2": "Campaign Review",
+            "i3": "Grant Application Review",
+            "cta": "Book Clarity Call →"
+        },
+        "s3": {
+            "title": "Cohort Program",
+            "price": "€3,000",
+            "unit": "/ founder",
+            "i1": "12-Week Structured Program",
+            "i2": "Small Group (5-8 founders)",
+            "i3": "Community + Guidance",
+            "cta": "Join Waitlist →"
+        }
+    },
+    "footer_cta": {
+        "title": "Deploy the Model",
+        "text": "Ready to build a disruptive ecosystem?",
+        "button": "Start Now"
+    }
+}

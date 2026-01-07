@@ -1,0 +1,69 @@
+{
+    "hero": {
+        "title": "Dream Frequency",
+        "subtitle": "Visualizzare il Subconscio via AI & EEG",
+        "m1": "Neurotech",
+        "m2": "AI Generativa",
+        "m3": "Ricerca",
+        "m4": "2025"
+    },
+    "ecosystem": {
+        "title": "Ruolo nell'Ecosistema",
+        "phase": "Fase X: Orizzonti Futuri",
+        "desc": "Dream Frequency è la **Micro Luna Sperimentale**. Esplora nuove frontiere di interfaccia uomo-macchina, testando tecnologie emergenti (Brain-Computer Interfaces) che un giorno potrebbero integrarsi negli altri ecosistemi.",
+        "link": "Vedi Pipeline →"
+    },
+    "framework": {
+        "title": "Dream Frequency – Ecologia del Sogno",
+        "s1": {
+            "title": "1. Problema",
+            "desc": "Passiamo un terzo della vita dormendo, ma questa enorme mole di dati cognitivi ed emotivi viene persa. Non esiste un feedback loop che ci permetta di 'vedere' la qualità del nostro riposo oltre a freddi grafici, perdendo l'opportunità di introspezione creativa e benessere mentale."
+        },
+        "s2": {
+            "title": "2. Soluzione",
+            "desc": "Un sistema multimodale che combina una fascia EEG non invasiva (tipo Muse/OpenBCI) con pipeline di AI Generativa. Il sistema traduce le frequenze cerebrali (Alpha, Theta, Delta) in prompt dinamici per generare paesaggi onirici visivi e sonori in tempo reale."
+        },
+        "s3": {
+            "title": "3. Risultati Attesi (Simulati)",
+            "i1": "<strong>Tech Demo:</strong> Pipeline funzionante che mappa onde Theta su generazione immagini Stable Diffusion.",
+            "i2": "<strong>Accuracy:</strong> Correlazione > 80% tra stato emotivo rilevato e output visivo (validazione soggettiva).",
+            "i3": "<strong>Privacy:</strong> Elaborazione locale (Edge AI) per garantire che i 'sogni' non lascino mai il device dell'utente."
+        },
+        "s4": {
+            "title": "4. Modello di Business",
+            "desc": "Ecosistema Hardware + Servizi:",
+            "i1": "<strong>Hardware:</strong> Vendita device EEG consumer-grade (design premium).",
+            "i2": "<strong>App Subscription:</strong> Accesso alla 'Dream Gallery' e analisi avanzate del sonno.",
+            "i3": "<strong>Data Licensing:</strong> (Opzionale/Anonimizzato) Dataset per ricerca neuroscientifica."
+        },
+        "s5": {
+            "title": "5. Tecnologia e Stack",
+            "i1": "<strong>Hardware:</strong> Sensori EEG a secco, Bluetooth LE.",
+            "i2": "<strong>AI Pipeline:</strong> Signal Processing (MNE-Python) -> Feature Extraction -> Prompt Engineering -> GenAI (Stable Diffusion/AudioCraft).",
+            "i3": "<strong>Frontend:</strong> Visualizzatore WebGL reattivo in tempo reale."
+        },
+        "s6": {
+            "title": "6. Stato Attuale e Roadmap",
+            "status": "<strong>Stato:</strong> Proof of Concept concettuale e validazione architettura software.",
+            "i1": "<strong>Q3 2026:</strong> Prototipo V1 funzionante (MVP hardware + software).",
+            "i2": "<strong>Q1 2027:</strong> Beta testing con gruppo ristretto di utenti 'lucid dreamers'."
+        },
+        "s7": {
+            "title": "7. Il Mio Ruolo",
+            "i1": "Visione di prodotto e integrazione sistemica (Neuroscienze + AI).",
+            "i2": "Sviluppo dell'architettura della pipeline dati.",
+            "i3": "Gestione etica e privacy (Neuro-rights design)."
+        },
+        "s8": {
+            "title": "8. Impatto Sostenibilità (ESG)",
+            "i1": "<strong>Salute Mentale:</strong> Strumento non farmacologico per awareness e gestione stress.",
+            "i2": "<strong>Etica dei Dati:</strong> Design 'Privacy-by-default' che restituisce la proprietà dei dati neurali all'utente."
+        }
+    },
+    "cta": {
+        "title": "Sogna con noi",
+        "desc": "Interessato alla ricerca su BCI e AI Generativa?",
+        "button": "Collabora alla Ricerca"
+    },
+    "floating_cta": "Unisciti alla Beta"
+}

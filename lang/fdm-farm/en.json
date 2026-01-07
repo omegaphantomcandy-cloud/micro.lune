@@ -1,0 +1,69 @@
+{
+    "hero": {
+        "title": "FDM Manufacturing Farm",
+        "subtitle": "Automated Production Systems for Fused Deposition Modeling",
+        "m1": "Technical White Paper",
+        "m2": "December 2025",
+        "m3": "Giacomo Bertapelle"
+    },
+    "ecosystem": {
+        "title": "Ecosystem Role",
+        "phase": "Phase 6: Automation",
+        "desc": "This project embodies the **Systemization** phase, removing the founder from the loop. It demonstrates how to scale physical production through software-driven orchestration.",
+        "link": "See Pipeline →"
+    },
+    "framework": {
+        "title": "FDM Farm – Scalable Industrial Automation",
+        "s1": {
+            "title": "1. Problem",
+            "desc": "Manual 3D printing farms are not scalable: they require constant supervision, suffer from high downtime during shift changes (night/weekend), and have human error rates (print failures) that erode margins by 15-20%. Labor cost eats the competitive advantage of additive manufacturing."
+        },
+        "s2": {
+            "title": "2. Solution",
+            "desc": "An intelligent orchestration system that virtualizes the printer fleet. The software manages queues, assigns jobs based on material/printer compatibility, and monitors quality in real-time via computer vision. It transforms a collection of machines into a single autonomous 24/7 production entity."
+        },
+        "s3": {
+            "title": "3. Key Results",
+            "i1": "<strong>Productivity:</strong> +400% output compared to manual management (from 176 to 720 units/month).",
+            "i2": "<strong>Costs:</strong> Labor cost per unit reduced from €8 to €1.5.",
+            "i3": "<strong>Reliability:</strong> Print success rate > 95% thanks to AI detection.",
+            "i4": "<strong>ROI:</strong> Payback on infrastructure investment in < 6 months."
+        },
+        "s4": {
+            "title": "4. Business Model",
+            "desc": "Internal Optimization and B2B Service:",
+            "i1": "Internal cost optimization for Luna/r (cost competitive advantage).",
+            "i2": "B2B Service Bureau: Contract manufacturing for small series (100-1000 pcs).",
+            "i3": "Technical Consulting: 'Farm-in-a-Box' packages for companies wanting to internalize production."
+        },
+        "s5": {
+            "title": "5. Tech & Competitive Advantage",
+            "i1": "<strong>Stack:</strong> Python/Klipper backend with proprietary job orchestration.",
+            "i2": "<strong>AI Monitoring:</strong> Custom computer vision module for 'spaghetti failure' and bed detachment detection.",
+            "i3": "<strong>Auto-Recovery:</strong> Automated reassignment logic for failed jobs on free printers."
+        },
+        "s6": {
+            "title": "6. Current Status & Roadmap",
+            "status": "<strong>Status:</strong> Fully operational on a fleet of 15+ machines. Manages 100% of Luna/r production.",
+            "i1": "<strong>Q2 2026:</strong> Robotic arm integration for automatic part removal (full lights-out manufacturing).",
+            "i2": "<strong>Q4 2026:</strong> SaaS release of the management dashboard for third parties."
+        },
+        "s7": {
+            "title": "7. My Role",
+            "i1": "Full development of the queue management middleware in Python.",
+            "i2": "Physical and electrical setup of the farm (ventilation, safety, networking).",
+            "i3": "Definition of optimized print profiles to reduce waste and time."
+        },
+        "s8": {
+            "title": "8. Sustainability (ESG)",
+            "i1": "<strong>Energy Efficiency:</strong> Scheduling algorithms that group thermally similar jobs, reducing consumption by 15%.",
+            "i2": "<strong>Minimum Waste:</strong> AI detection stops failed prints immediately, saving kilograms of plastic."
+        }
+    },
+    "cta": {
+        "title": "Need Scalable Production?",
+        "desc": "We transform your prototyping into mass production.",
+        "button": "Book Farm Audit"
+    },
+    "floating_cta": "Get Pricing & Info"
+}

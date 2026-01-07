@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Professional portfolio showcasing 3D printing expertise, e-commerce platforms, and technical projects",
   "scripts": {
-    "dev": "npx http-server -p 3000 -o",
+    "dev": "npx http-server -p 3000 -o src/pages/index.html",
     "start": "npx http-server -p 3000",
     "preview": "npx http-server -p 8080"
   },

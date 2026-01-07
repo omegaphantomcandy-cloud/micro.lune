@@ -1,0 +1,51 @@
+{
+    "hero": {
+        "title": "Case Studies",
+        "subtitle": "Real problems. Engineered solutions. Quantifiable impact."
+    },
+    "common": {
+        "situation": "Situation",
+        "approach": "Approach",
+        "results_title": "Results"
+    },
+    "items": {
+        "c1": {
+            "title": "Print Farm Automation @ ProtoLabs Bologna",
+            "s1": "Client: 3D Print Service Bureau",
+            "s2": "Baseline: 45 orders/week",
+            "s3": "Failures: 12% rate",
+            "s4": "Pain: Manual SD card swapping",
+            "a1": "Diagnostic: 2-day audit",
+            "a2": "Stack: OctoPrint + Custom API Queue",
+            "a3": "Integration: Slack Notifications",
+            "a4": "Timeline: 3 Weeks",
+            "r1_title": "+40% Output",
+            "r1_desc": "65 orders/week capacity",
+            "r2_title": "-65% Failures",
+            "r2_desc": "Reduced to <4%",
+            "r3_title": "-15 hrs/week",
+            "r3_desc": "Manual labor saved",
+            "quote": "\"Giacomo didn't just fix the printers; he fixed the workflow. We stopped firefighting and started scaling.\"",
+            "author": "— Marco V., Operations Manager"
+        },
+        "c2": {
+            "title": "E-com Fulfillment @ Lunar Artifacts",
+            "s1": "Client: D2C Jewelry Brand",
+            "s2": "Baseline: Manual STL prep per order",
+            "s3": "Bottleneck: 20 mins CAD work/order",
+            "s4": "Pain: Unable to scale ads",
+            "a1": "Diagnostic: Workflow analysis",
+            "a2": "Stack: Python Scripting + Shopify Webhooks",
+            "a3": "Logic: Auto-generate STL variants",
+            "a4": "Timeline: 4 Weeks",
+            "r1_title": "Zero Manual Prep",
+            "r1_desc": "Fully automated generation",
+            "r2_title": "24hr Turnaround",
+            "r2_desc": "Down from 3-4 days",
+            "r3_title": "ROI: 2 Months",
+            "r3_desc": "Payback period",
+            "quote": "\"We were capped at 50 orders a week because of design time. Now we can do 500 without adding headcount.\"",
+            "author": "— Elena R., Founder"
+        }
+    }
+}

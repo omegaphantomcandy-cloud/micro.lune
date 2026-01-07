@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Studies - Giacomo Bertapelle</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <style>
+        .page-header {
+            padding-top: 8rem;
+            padding-bottom: 4rem;
+            text-align: center;
+        }
+
+        .page-title {
+            font-family: 'Space Mono', monospace;
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            margin-bottom: 1rem;
+        }
+
+        .subtitle {
+            font-family: 'Inter', sans-serif;
+            color: #ccc;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .case-study-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+            display: grid;
+            gap: 4rem;
+        }
+
+        .case-study {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 8px;
+        }
+
+        .case-study h2 {
+            font-family: 'Space Mono', monospace;
+            color: #00ff88;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+
+        .case-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .case-section h3 {
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            color: #666;
+            margin-bottom: 0.5rem;
+            letter-spacing: 1px;
+        }
+
+        .case-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .case-section li {
+            position: relative;
+            padding-left: 1rem;
+            margin-bottom: 0.5rem;
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+
+        .case-section li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #00ff88;
+        }
+
+        .results-box {
+            background: rgba(0, 255, 136, 0.1);
+            border: 1px solid #00ff88;
+            padding: 1.5rem;
+            border-radius: 4px;
+            margin-top: 1rem;
+        }
+
+        .results-box h3 {
+            color: #00ff88;
+            margin-bottom: 1rem;
+        }
+
+        .client-quote {
+            font-style: italic;
+            color: #aaa;
+            border-left: 2px solid #333;
+            padding-left: 1rem;
+            margin-top: 2rem;
+        }
+
+        .client-quote cite {
+            display: block;
+            margin-top: 0.5rem;
+            font-style: normal;
+            font-size: 0.8rem;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-header">
+        <h1 class="page-title" data-i18n="hero.title">Case Studies</h1>
+        <p class="subtitle" data-i18n="hero.subtitle">Real problems. Engineered solutions. Quantifiable impact.</p>
+    </div>
+
+    <div class="case-study-container">
+        <!-- Case Study 1 -->
+        <article class="case-study">
+            <h2 data-i18n="items.c1.title">Print Farm Automation @ ProtoLabs Bologna</h2>
+            <div class="case-grid">
+                <div class="case-section">
+                    <h3 data-i18n="common.situation">Situation</h3>
+                    <ul>
+                        <li data-i18n="items.c1.s1">Client: 3D Print Service Bureau</li>
+                        <li data-i18n="items.c1.s2">Baseline: 45 orders/week</li>
+                        <li data-i18n="items.c1.s3">Failures: 12% rate</li>
+                        <li data-i18n="items.c1.s4">Pain: Manual SD card swapping</li>
+                    </ul>
+                </div>
+                <div class="case-section">
+                    <h3 data-i18n="common.approach">Approach</h3>
+                    <ul>
+                        <li data-i18n="items.c1.a1">Diagnostic: 2-day audit</li>
+                        <li data-i18n="items.c1.a2">Stack: OctoPrint + Custom API Queue</li>
+                        <li data-i18n="items.c1.a3">Integration: Slack Notifications</li>
+                        <li data-i18n="items.c1.a4">Timeline: 3 Weeks</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="results-box">
+                <h3 data-i18n="common.results_title">Results</h3>
+                <div class="case-grid">
+                    <div>
+                        <strong data-i18n="items.c1.r1_title">+40% Output</strong><br>
+                        <small data-i18n="items.c1.r1_desc">65 orders/week capacity</small>
+                    </div>
+                    <div>
+                        <strong data-i18n="items.c1.r2_title">-65% Failures</strong><br>
+                        <small data-i18n="items.c1.r2_desc">Reduced to <4%</small>
+                    </div>
+                    <div>
+                        <strong data-i18n="items.c1.r3_title">-15 hrs/week</strong><br>
+                        <small data-i18n="items.c1.r3_desc">Manual labor saved</small>
+                    </div>
+                </div>
+            </div>
+
+            <blockquote class="client-quote">
+                <span data-i18n="items.c1.quote">"Giacomo didn't just fix the printers; he fixed the workflow. We stopped firefighting and started scaling."</span>
+                <cite data-i18n="items.c1.author">— Marco V., Operations Manager</cite>
+            </blockquote>
+        </article>
+
+        <!-- Case Study 2 -->
+        <article class="case-study">
+            <h2 data-i18n="items.c2.title">E-com Fulfillment @ Lunar Artifacts</h2>
+            <div class="case-grid">
+                <div class="case-section">
+                    <h3 data-i18n="common.situation">Situation</h3>
+                    <ul>
+                        <li data-i18n="items.c2.s1">Client: D2C Jewelry Brand</li>
+                        <li data-i18n="items.c2.s2">Baseline: Manual STL prep per order</li>
+                        <li data-i18n="items.c2.s3">Bottleneck: 20 mins CAD work/order</li>
+                        <li data-i18n="items.c2.s4">Pain: Unable to scale ads</li>
+                    </ul>
+                </div>
+                <div class="case-section">
+                    <h3 data-i18n="common.approach">Approach</h3>
+                    <ul>
+                        <li data-i18n="items.c2.a1">Diagnostic: Workflow analysis</li>
+                        <li data-i18n="items.c2.a2">Stack: Python Scripting + Shopify Webhooks</li>
+                        <li data-i18n="items.c2.a3">Logic: Auto-generate STL variants</li>
+                        <li data-i18n="items.c2.a4">Timeline: 4 Weeks</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="results-box">
+                <h3 data-i18n="common.results_title">Results</h3>
+                <div class="case-grid">
+                    <div>
+                        <strong data-i18n="items.c2.r1_title">Zero Manual Prep</strong><br>
+                        <small data-i18n="items.c2.r1_desc">Fully automated generation</small>
+                    </div>
+                    <div>
+                        <strong data-i18n="items.c2.r2_title">24hr Turnaround</strong><br>
+                        <small data-i18n="items.c2.r2_desc">Down from 3-4 days</small>
+                    </div>
+                    <div>
+                        <strong data-i18n="items.c2.r3_title">ROI: 2 Months</strong><br>
+                        <small data-i18n="items.c2.r3_desc">Payback period</small>
+                    </div>
+                </div>
+            </div>
+
+            <blockquote class="client-quote">
+                <span data-i18n="items.c2.quote">"We were capped at 50 orders a week because of design time. Now we can do 500 without adding headcount."</span>
+                <cite data-i18n="items.c2.author">— Elena R., Founder</cite>
+            </blockquote>
+        </article>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h4>Giacomo Bertapelle</h4>
+                <p>Tech Automation Consultant.<br>Bologna, Italy.</p>
+                <p class="copyright">&copy; 2026</p>
+            </div>
+            <div class="footer-skills">
+                <div class="skills-wrapper">
+                    <div class="skill-group">
+                        <h4 data-i18n="about.skills.dev">Development</h4>
+                        <ul>
+                            <li>JavaScript / React / Node.js</li>
+                            <li>Python / Automation</li>
+                            <li>Full-Stack Architecture</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h4 data-i18n="about.skills.mfg">Manufacturing</h4>
+                        <ul>
+                            <li>3D Printing / CAD</li>
+                            <li>Digital Fabrication</li>
+                            <li>Process Optimization</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h4 data-i18n="about.skills.biz">Business</h4>
+                        <ul>
+                            <li>E-commerce Operations</li>
+                            <li>Product Strategy</li>
+                            <li>Systems Thinking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-trust">
+                <h4 data-i18n="footer.trust.title">Trust & Privacy</h4>
+                <p data-i18n="footer.trust.data"><strong>Data Security:</strong> We treat your business data with strict confidentiality.</p>
+                <p data-i18n="footer.trust.auto"><strong>Responsible Automation:</strong> Systems to empower teams, not replace them.</p>
+                <p data-i18n="footer.trust.compliance"><strong>Compliance:</strong> GDPR Compliant architecture.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/navigation.js"></script>
+    <script src="../js/translation.js"></script>
+</body>
+
+</html>
